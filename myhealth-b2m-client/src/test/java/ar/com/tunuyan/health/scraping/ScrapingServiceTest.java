@@ -29,7 +29,7 @@ public class ScrapingServiceTest {
 	@Autowired
 	private ScrapingService scrapingSvc;
 
-	@Test
+	//@Test
 	public void testAuthenticate() {
 
 		long start = System.currentTimeMillis();

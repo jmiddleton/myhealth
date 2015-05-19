@@ -119,7 +119,7 @@ public class SaxonTestCase {
 		System.out.println(encoded);
 	}
 	
-	@Test
+	//@Test
 	public void testBMIOV() throws Exception {
 		System.setProperty("javax.xml.transform.TransformerFactory", "net.sf.saxon.TransformerFactoryImpl");
 
