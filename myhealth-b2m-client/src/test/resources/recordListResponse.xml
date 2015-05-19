@@ -1,0 +1,50 @@
+<ns:getPCEHRRecordListResponse
+	xmlns:ns1="http://ns.electronichealth.net.au/pcehr/xsd/common/CommonCoreElements/1.0"
+	xmlns:ns="http://ns.electronichealth.net.au/pcehr/xsd/interfaces/GetPCEHRRecordList/1.0">
+	<ns:responseStatus>
+		<ns1:code>PCEHR_SUCCESS</ns1:code>
+		<ns1:description>SUCCESS</ns1:description>
+	</ns:responseStatus>
+	<ns:individual>
+		<ns:name>
+			<ns1:familyName>TESTER FOUR</ns1:familyName>
+			<ns1:givenName>PCEHR</ns1:givenName>
+			<ns1:usage>L</ns1:usage>
+			<ns1:preferred>true</ns1:preferred>
+		</ns:name>
+		<ns1:sex>M</ns1:sex>
+		<ns:dateOfBirth>1975-01-22</ns:dateOfBirth>
+		<ns1:ihiNumber>8003603459045713</ns1:ihiNumber>
+	</ns:individual>
+	<ns:records>
+		<ns:PCEHRRecord>
+			<ns:status>Active</ns:status>
+			<ns:relationship>Self</ns:relationship>
+			<ns:individual>
+				<ns1:name>
+					<ns1:familyName>TESTER FOUR</ns1:familyName>
+					<ns1:givenName>PCEHR</ns1:givenName>
+					<ns1:usage>L</ns1:usage>
+				</ns1:name>
+				<ns1:sex>M</ns1:sex>
+				<ns1:dateOfBirth>1975-01-22</ns1:dateOfBirth>
+				<ns1:ihiNumber>8003603459045713</ns1:ihiNumber>
+			</ns:individual>
+		</ns:PCEHRRecord>
+		<ns:PCEHRRecord>
+			<ns:status>Active</ns:status>
+			<ns:relationship>Full Access Nominated Representative
+			</ns:relationship>
+			<ns:individual>
+				<ns1:name>
+					<ns1:familyName>TESTER THREE</ns1:familyName>
+					<ns1:givenName>Juan</ns1:givenName>
+					<ns1:usage>L</ns1:usage>
+				</ns1:name>
+				<ns1:sex>M</ns1:sex>
+				<ns1:dateOfBirth>1972-07-01</ns1:dateOfBirth>
+				<ns1:ihiNumber>8003602347941372</ns1:ihiNumber>
+			</ns:individual>
+		</ns:PCEHRRecord>
+	</ns:records>
+</ns:getPCEHRRecordListResponse>

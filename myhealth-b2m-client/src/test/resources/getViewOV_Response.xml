@@ -1,0 +1,562 @@
+<ns4:ClinicalDocument xmlns:ns4="urn:hl7-org:v3" xmlns:ns="http://ns.electronichealth.net.au/pcehr/xsd/interfaces/GetView/1.0"
+	xmlns:ns3="http://common.pna.ws.pcehr.au/" xmlns:ns6="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:ns5="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"
+	xmlns:ns8="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0" xmlns:ns7="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0" xmlns:ns13="http://view.htb.ws.pcehr.au/"
+	xmlns:ns12="http://di.view.htb.ws.pcehr.au/" xmlns:ns9="http://common.htb.ws.pcehr.au/" xmlns:ns11="http://path.view.htb.ws.pcehr.au/" xmlns:ns10="http://common.view.htb.ws.pcehr.au/"
+	xmlns:ns14="http://hro.view.htb.ws.pcehr.au/" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+	<ns4:typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3" />
+	<ns4:templateId extension="1.1" root="1.2.36.1.2001.1001.100.1002.210" />
+	<ns4:templateId extension="1.0" root="1.2.36.1.2001.1001.100.149" />
+	<ns4:id root="2.25.119041600890339775366712665501945050241" />
+	<ns4:code code="100.16872" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Observation View" />
+	<ns4:title>Observation View</ns4:title>
+	<ns4:effectiveTime value="20150417005917+1000" />
+	<ns4:confidentialityCode nullFlavor="NA" />
+	<ns4:languageCode code="en-AU" />
+	<ns5:completionCode code="F" codeSystem="1.2.36.1.2001.1001.101.104.20104" codeSystemName="NCTIS Document Status Values"
+		displayName="Final" />
+	<ns4:recordTarget typeCode="RCT">
+		<ns4:patientRole classCode="PAT">
+			<ns4:id root="2.25.139413467213522877648820993974195784109" />
+			<ns4:patient classCode="PSN" determinerCode="INSTANCE">
+				<ns4:id nullFlavor="NA" />
+				<ns4:name>
+					<ns4:prefix partType="PFX">MR</ns4:prefix>
+					<ns4:family partType="FAM">MIDDLETON</ns4:family>
+					<ns4:given partType="GIV">JORGE LUIS</ns4:given>
+				</ns4:name>
+				<ns4:administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.13.68" codeSystemName="AS 5017-2006 Health Care Client Identifier Sex"
+					displayName="Male" />
+				<ns4:birthTime value="19760329" />
+				<ns5:asEntityIdentifier classCode="IDENT">
+					<ns5:id assigningAuthorityName="IHI" root="1.2.36.1.2001.1003.0.8003603460392146" />
+					<ns5:assigningGeographicArea classCode="PLC">
+						<ns5:name>National Identifier</ns5:name>
+					</ns5:assigningGeographicArea>
+				</ns5:asEntityIdentifier>
+			</ns4:patient>
+		</ns4:patientRole>
+	</ns4:recordTarget>
+	<ns4:author typeCode="AUT">
+		<ns4:time value="20150417005917+1000" />
+		<ns4:assignedAuthor>
+			<ns4:id root="2.25.22341969603335631359683187180893047372" />
+			<ns4:code nullFlavor="NA" />
+			<ns4:addr nullFlavor="NA" />
+			<ns4:assignedAuthoringDevice>
+				<ns4:softwareName>PCEHR</ns4:softwareName>
+				<ns5:asEntityIdentifier classCode="IDENT">
+					<ns5:id assigningAuthorityName="PAI-D" root="1.2.36.1.2001.1007.20.8003640003000026" />
+					<ns5:assigningGeographicArea classCode="PLC">
+						<ns5:name>National Identifier</ns5:name>
+					</ns5:assigningGeographicArea>
+				</ns5:asEntityIdentifier>
+			</ns4:assignedAuthoringDevice>
+		</ns4:assignedAuthor>
+	</ns4:author>
+	<ns4:custodian typeCode="CST">
+		<ns4:assignedCustodian>
+			<ns4:representedCustodianOrganization>
+				<ns4:id root="2.25.334114802337027663923913085981802320713" />
+			</ns4:representedCustodianOrganization>
+		</ns4:assignedCustodian>
+	</ns4:custodian>
+	<ns4:component typeCode="COMP">
+		<ns4:structuredBody>
+			<ns4:component typeCode="COMP">
+				<ns4:section>
+					<ns4:id root="2.25.190790132767608956799690304223125946287" />
+					<ns4:code code="1" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" displayName="Consumer Entered Measurement Information" />
+					<ns4:title>Consumer Entered Measurement Information</ns4:title>
+					<ns4:text>
+						<ns4:table>
+							<ns4:caption>Consumer Entered Measurement Information</ns4:caption>
+							<ns4:thead>
+								<ns4:tr>
+									<ns4:th>Observation Date</ns4:th>
+									<ns4:th>Measurement Type</ns4:th>
+									<ns4:th>Value</ns4:th>
+									<ns4:th>UOM</ns4:th>
+									<ns4:th>Percentile</ns4:th>
+									<ns4:th>Recorded By</ns4:th>
+									<ns4:th>Link</ns4:th>
+								</ns4:tr>
+							</ns4:thead>
+							<ns4:tbody>
+								<ns4:tr>
+									<ns4:td>09 Apr 1981 00:00+1000</ns4:td>
+									<ns4:td>Body weight (observable entity)</ns4:td>
+									<ns4:td>25.000</ns4:td>
+									<ns4:td>kg</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_add96ea3-c8a4-44b5-ac36-e19d36bad921" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+								<ns4:tr>
+									<ns4:td>09 Apr 1981 00:00+1000</ns4:td>
+									<ns4:td>Body height measure (observable entity)</ns4:td>
+									<ns4:td>100.0</ns4:td>
+									<ns4:td>cm</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_106f9b2b-e71d-48c7-bb46-15fca49f4560" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+								<ns4:tr>
+									<ns4:td>09 Apr 1981 00:00+1000</ns4:td>
+									<ns4:td>Body mass index</ns4:td>
+									<ns4:td>25.0</ns4:td>
+									<ns4:td>kg/m2</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_592a53dc-3bc5-477d-bcd1-4aa1a9886a26" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+								<ns4:tr>
+									<ns4:td>09 Apr 1982 00:00+1000</ns4:td>
+									<ns4:td>Body weight (observable entity)</ns4:td>
+									<ns4:td>24.000</ns4:td>
+									<ns4:td>kg</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_139d2b3b-1b76-49ac-995d-112490f35822" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+								<ns4:tr>
+									<ns4:td>09 Apr 1982 00:00+1000</ns4:td>
+									<ns4:td>Body height measure (observable entity)</ns4:td>
+									<ns4:td>120.0</ns4:td>
+									<ns4:td>cm</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_ff4b0842-a937-4047-9490-0fb44e98d270" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+								<ns4:tr>
+									<ns4:td>09 Apr 1982 00:00+1000</ns4:td>
+									<ns4:td>Body mass index</ns4:td>
+									<ns4:td>16.67</ns4:td>
+									<ns4:td>kg/m2</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_a634d646-6110-49ee-b5b4-13b236101146" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+								<ns4:tr>
+									<ns4:td>09 Apr 1983 00:00+1000</ns4:td>
+									<ns4:td>Body height measure (observable entity)</ns4:td>
+									<ns4:td>130.0</ns4:td>
+									<ns4:td>cm</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_0a5dc8f0-6ab5-4a10-bcff-4b01cfb85059" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+								<ns4:tr>
+									<ns4:td>09 Apr 1983 00:00+1000</ns4:td>
+									<ns4:td>Body weight (observable entity)</ns4:td>
+									<ns4:td>25.000</ns4:td>
+									<ns4:td>kg</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_a8999775-2c3c-4872-8dfc-ce65f2a19d5c" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+								<ns4:tr>
+									<ns4:td>09 Apr 1983 00:00+1000</ns4:td>
+									<ns4:td>Body mass index</ns4:td>
+									<ns4:td>14.79</ns4:td>
+									<ns4:td>kg/m2</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_f86a44f2-8213-4a56-8c78-0594ec3a5be5" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+								<ns4:tr>
+									<ns4:td>09 Apr 1980 00:00+1000</ns4:td>
+									<ns4:td>Body weight (observable entity)</ns4:td>
+									<ns4:td>23.000</ns4:td>
+									<ns4:td>kg</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_62b22c9d-2f62-4d8a-8954-5671d8b7cec8" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+								<ns4:tr>
+									<ns4:td>09 Apr 1980 00:00+1000</ns4:td>
+									<ns4:td>Body height measure (observable entity)</ns4:td>
+									<ns4:td>100.0</ns4:td>
+									<ns4:td>cm</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_449aaf34-5e13-4797-a4cb-86e959b3d027" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+								<ns4:tr>
+									<ns4:td>09 Apr 1980 00:00+1000</ns4:td>
+									<ns4:td>Body mass index</ns4:td>
+									<ns4:td>23.0</ns4:td>
+									<ns4:td>kg/m2</ns4:td>
+									<ns4:td />
+									<ns4:td>Consumer</ns4:td>
+									<ns4:td>
+										<ns4:linkHtml ID="_1f572311-7de2-4c23-97b5-f32e09dc831c" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.174155114488427668473496927198658810738">Consumer Entered Measurement Information</ns4:linkHtml>
+									</ns4:td>
+								</ns4:tr>
+							</ns4:tbody>
+						</ns4:table>
+					</ns4:text>
+					<ns4:entry typeCode="DRIV">
+						<ns4:organizer classCode="CLUSTER" moodCode="EVN">
+							<ns4:id root="d5144ecb-307d-4da0-a4f0-1818cb7daebe" />
+							<ns4:code code="1" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" codeSystemVersion="v1.0"
+								displayName="Consumer Entered Measurement Information" />
+							<ns4:statusCode code="completed" />
+							<ns4:effectiveTime value="19810409000000+1000" />
+							<ns4:component typeCode="COMP">
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:id root="37e08bd4-8ed0-4280-b761-e61690b84a44" />
+									<ns4:code code="27113001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20141130"
+										displayName="Body weight (observable entity)" />
+									<ns4:text>
+										<ns4:reference value="#_add96ea3-c8a4-44b5-ac36-e19d36bad921" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="kg" value="25.000" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component typeCode="COMP">
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:id root="3a6cb4b6-c4b2-4bba-8298-a05e9f16de6e" />
+									<ns4:code code="50373000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20141130"
+										displayName="Body height measure (observable entity)" />
+									<ns4:text>
+										<ns4:reference value="#_106f9b2b-e71d-48c7-bb46-15fca49f4560" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="cm" value="100.0" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component>
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:code code="60621009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Body mass index" />
+									<ns4:text>
+										NOTE: BMI calculated based upon Observation values
+										<ns4:reference value="#_592a53dc-3bc5-477d-bcd1-4aa1a9886a26" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="kg/m2" value="25.0" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component>
+								<ns4:act classCode="ACT" moodCode="EVN">
+									<ns4:id nullFlavor="NA" />
+									<ns4:code code="102.16692.179.1.2" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Record Link" />
+									<ns4:reference typeCode="REFR">
+										<ns4:seperatableInd value="true" />
+										<ns4:externalDocument classCode="DOC" moodCode="EVN">
+											<ns4:templateId extension="1.0" root="1.2.36.1.2001.1001.101.100.1002.170" />
+											<ns4:id root="2.25.174155114488427668473496927198658810738" />
+										</ns4:externalDocument>
+									</ns4:reference>
+									<ns4:reference typeCode="REFR">
+										<ns4:seperatableInd value="true" />
+										<ns4:externalAct>
+											<ns4:id root="1.2.36.1.2001.1007.10.8003640002000050" />
+											<ns4:code code="10" codeSystem="1.2.36.1.2001.1007" codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+										</ns4:externalAct>
+									</ns4:reference>
+								</ns4:act>
+							</ns4:component>
+						</ns4:organizer>
+					</ns4:entry>
+					<ns4:entry typeCode="DRIV">
+						<ns4:organizer classCode="CLUSTER" moodCode="EVN">
+							<ns4:id root="15ceb2a0-d6a4-417f-b1b8-5f4f53d6b387" />
+							<ns4:code code="1" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" codeSystemVersion="v1.0"
+								displayName="Consumer Entered Measurement Information" />
+							<ns4:statusCode code="completed" />
+							<ns4:effectiveTime value="19820409000000+1000" />
+							<ns4:component typeCode="COMP">
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:id root="d3831744-acdf-42c6-8d31-4cedb0f78a74" />
+									<ns4:code code="27113001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20141130"
+										displayName="Body weight (observable entity)" />
+									<ns4:text>
+										<ns4:reference value="#_139d2b3b-1b76-49ac-995d-112490f35822" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="kg" value="24.000" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component typeCode="COMP">
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:id root="e8861135-44b5-4ba2-a5e3-447994197409" />
+									<ns4:code code="50373000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20141130"
+										displayName="Body height measure (observable entity)" />
+									<ns4:text>
+										<ns4:reference value="#_ff4b0842-a937-4047-9490-0fb44e98d270" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="cm" value="120.0" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component>
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:code code="60621009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Body mass index" />
+									<ns4:text>
+										NOTE: BMI calculated based upon Observation values
+										<ns4:reference value="#_a634d646-6110-49ee-b5b4-13b236101146" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="kg/m2" value="16.67" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component>
+								<ns4:act classCode="ACT" moodCode="EVN">
+									<ns4:id nullFlavor="NA" />
+									<ns4:code code="102.16692.179.1.2" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Record Link" />
+									<ns4:reference typeCode="REFR">
+										<ns4:seperatableInd value="true" />
+										<ns4:externalDocument classCode="DOC" moodCode="EVN">
+											<ns4:templateId extension="1.0" root="1.2.36.1.2001.1001.101.100.1002.170" />
+											<ns4:id root="2.25.174155114488427668473496927198658810738" />
+										</ns4:externalDocument>
+									</ns4:reference>
+									<ns4:reference typeCode="REFR">
+										<ns4:seperatableInd value="true" />
+										<ns4:externalAct>
+											<ns4:id root="1.2.36.1.2001.1007.10.8003640002000050" />
+											<ns4:code code="10" codeSystem="1.2.36.1.2001.1007" codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+										</ns4:externalAct>
+									</ns4:reference>
+								</ns4:act>
+							</ns4:component>
+						</ns4:organizer>
+					</ns4:entry>
+					<ns4:entry typeCode="DRIV">
+						<ns4:organizer classCode="CLUSTER" moodCode="EVN">
+							<ns4:id root="8ae90ad6-80ef-46a5-b4c0-733c6fc78e54" />
+							<ns4:code code="1" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" codeSystemVersion="v1.0"
+								displayName="Consumer Entered Measurement Information" />
+							<ns4:statusCode code="completed" />
+							<ns4:effectiveTime value="19830409000000+1000" />
+							<ns4:component typeCode="COMP">
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:id root="d319b028-1541-4342-a54a-733e12c1c323" />
+									<ns4:code code="50373000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20141130"
+										displayName="Body height measure (observable entity)" />
+									<ns4:text>
+										<ns4:reference value="#_0a5dc8f0-6ab5-4a10-bcff-4b01cfb85059" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="cm" value="130.0" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component typeCode="COMP">
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:id root="ab9ea0f9-f1a0-4116-9d96-0575c9982ee1" />
+									<ns4:code code="27113001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20141130"
+										displayName="Body weight (observable entity)" />
+									<ns4:text>
+										<ns4:reference value="#_a8999775-2c3c-4872-8dfc-ce65f2a19d5c" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="kg" value="25.000" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component>
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:code code="60621009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Body mass index" />
+									<ns4:text>
+										NOTE: BMI calculated based upon Observation values
+										<ns4:reference value="#_f86a44f2-8213-4a56-8c78-0594ec3a5be5" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="kg/m2" value="14.79" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component>
+								<ns4:act classCode="ACT" moodCode="EVN">
+									<ns4:id nullFlavor="NA" />
+									<ns4:code code="102.16692.179.1.2" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Record Link" />
+									<ns4:reference typeCode="REFR">
+										<ns4:seperatableInd value="true" />
+										<ns4:externalDocument classCode="DOC" moodCode="EVN">
+											<ns4:templateId extension="1.0" root="1.2.36.1.2001.1001.101.100.1002.170" />
+											<ns4:id root="2.25.174155114488427668473496927198658810738" />
+										</ns4:externalDocument>
+									</ns4:reference>
+									<ns4:reference typeCode="REFR">
+										<ns4:seperatableInd value="true" />
+										<ns4:externalAct>
+											<ns4:id root="1.2.36.1.2001.1007.10.8003640002000050" />
+											<ns4:code code="10" codeSystem="1.2.36.1.2001.1007" codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+										</ns4:externalAct>
+									</ns4:reference>
+								</ns4:act>
+							</ns4:component>
+						</ns4:organizer>
+					</ns4:entry>
+					<ns4:entry typeCode="DRIV">
+						<ns4:organizer classCode="CLUSTER" moodCode="EVN">
+							<ns4:id root="9fa4fcac-2082-423b-958a-395ffd308ca6" />
+							<ns4:code code="1" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" codeSystemVersion="v1.0"
+								displayName="Consumer Entered Measurement Information" />
+							<ns4:statusCode code="completed" />
+							<ns4:effectiveTime value="19800409000000+1000" />
+							<ns4:component typeCode="COMP">
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:id root="bf90c20e-9554-427b-8af5-33774e062d6d" />
+									<ns4:code code="27113001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20141130"
+										displayName="Body weight (observable entity)" />
+									<ns4:text>
+										<ns4:reference value="#_62b22c9d-2f62-4d8a-8954-5671d8b7cec8" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="kg" value="23.000" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component typeCode="COMP">
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:id root="806aa2c3-1a0a-4ddb-b124-11f84d6c3e07" />
+									<ns4:code code="50373000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20141130"
+										displayName="Body height measure (observable entity)" />
+									<ns4:text>
+										<ns4:reference value="#_449aaf34-5e13-4797-a4cb-86e959b3d027" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="cm" value="100.0" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component>
+								<ns4:seperatableInd value="false" />
+								<ns4:observation classCode="OBS" moodCode="EVN">
+									<ns4:code code="60621009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Body mass index" />
+									<ns4:text>
+										NOTE: BMI calculated based upon Observation values
+										<ns4:reference value="#_1f572311-7de2-4c23-97b5-f32e09dc831c" />
+									</ns4:text>
+									<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" unit="kg/m2" value="23.0" xsi:type="ns4:PQ" />
+									<ns4:entryRelationship typeCode="MFST">
+										<ns4:observation classCode="OBS" moodCode="EVN">
+											<ns4:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nullFlavor="NA" xsi:type="ns4:PQ" />
+										</ns4:observation>
+									</ns4:entryRelationship>
+								</ns4:observation>
+							</ns4:component>
+							<ns4:component>
+								<ns4:act classCode="ACT" moodCode="EVN">
+									<ns4:id nullFlavor="NA" />
+									<ns4:code code="102.16692.179.1.2" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Record Link" />
+									<ns4:reference typeCode="REFR">
+										<ns4:seperatableInd value="true" />
+										<ns4:externalDocument classCode="DOC" moodCode="EVN">
+											<ns4:templateId extension="1.0" root="1.2.36.1.2001.1001.101.100.1002.170" />
+											<ns4:id root="2.25.174155114488427668473496927198658810738" />
+										</ns4:externalDocument>
+									</ns4:reference>
+									<ns4:reference typeCode="REFR">
+										<ns4:seperatableInd value="true" />
+										<ns4:externalAct>
+											<ns4:id root="1.2.36.1.2001.1007.10.8003640002000050" />
+											<ns4:code code="10" codeSystem="1.2.36.1.2001.1007" codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+										</ns4:externalAct>
+									</ns4:reference>
+								</ns4:act>
+							</ns4:component>
+						</ns4:organizer>
+					</ns4:entry>
+				</ns4:section>
+			</ns4:component>
+			<ns4:component typeCode="COMP">
+				<ns4:section>
+					<ns4:id root="2.25.88577248455484338540196129705589186864" />
+					<ns4:code code="2" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" displayName="Provider Entered Measurement Information" />
+					<ns4:title>Provider Entered Measurement Information</ns4:title>
+					<ns4:text>
+						<ns4:paragraph>No data recorded for this section.</ns4:paragraph>
+					</ns4:text>
+				</ns4:section>
+			</ns4:component>
+		</ns4:structuredBody>
+	</ns4:component>
+</ns4:ClinicalDocument>

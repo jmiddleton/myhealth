@@ -1,0 +1,14 @@
+{
+    "growth": {
+        "title": "Growth Charts",
+        "subtitle": "Growth charts consist of a series of percentile curves that illustrate the distribution of selected body measurements in children.",
+        "cdcrecomm": {
+            "title": "CDC recommends that health care providers:",
+            "who": "Use the <strong>WHO growth charts</strong> to monitor growth for infants and children ages 0 to 2 years of age.",
+            "cdc": "Use the <strong>CDC growth charts</strong> to monitor growth for children age 2 years and older.",
+            "moreinfo": " For more information, please go to "
+        },
+        "measurement" : "Measurement",
+        "period" : "Age Range"
+    }
+}

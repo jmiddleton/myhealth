@@ -1,0 +1,252 @@
+<!-- this page doesn't have controller because it use the record 
+from the $rootScope which is initialized by topnavbar.html -->
+<div ng-controller="ProfileCtrl as profileCtrl">
+	<div class="row wrapper border-bottom white-bg page-heading">
+		<div class="col-lg-10">
+			<h2 translate="profile.title"></h2>
+		</div>
+	</div>
+	<div class="alert ng-isolate-scope alert-danger alert-dismissable"
+		ng-if="error != null"
+		ng-class="['alert-' + (type || 'warning'), closeable ? 'alert-dismissable' : null]"
+		role="alert" type="danger">
+		<button type="button" class="close" ng-click="close()">
+			<span aria-hidden="true">×</span> <span class="sr-only">Close</span>
+		</button>
+		<div>
+			<strong>{{error.title}}</strong> <span class="ng-binding ng-scope">{{error.message}}</span>
+		</div>
+	</div>
+	<div class="wrapper wrapper-content row animated fadeInRight">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="ibox-content text-center" ng-cloak>
+				<h2>
+					<span ng-if="myrecord.name[0].prefix !== undefined"> <span
+						ng-repeat="prefix in myrecord.name[0].prefix">{{prefix}} </span>
+					</span> <span ng-repeat="family in myrecord.name[0].family">{{family}}
+					</span> <span ng-repeat="given in myrecord.name[0].given">{{given}}
+					</span>
+				</h2>
+				<div class="m-b-sm">
+					<img ng-if="myrecord && myrecord.photo[0] && myrecord.photo[0].url"
+						ng-cloak alt="image" class="img-circle"
+						ng-src="{{:: myrecord.photo[0].url}}"> <img
+						ng-if="!myrecord || !myrecord.photo[0] || !myrecord.photo[0].url"
+						ng-cloak alt="image" class="img-circle" src="images/empty.png">
+				</div>
+				<ul class="list-unstyled m-t-md">
+					<li><label><span class="fa fa-user"></span> Gender</label>
+						{{myrecord.gender}}</li>
+					<li><label><span class="fa fa-birthday-cake"></span>
+							Date of Birth:</label> {{myrecord.birthDate | date:'mediumDate'}}</li>
+				</ul>
+			</div>
+
+			<div class="ibox float-e-margins">
+				<div class="ibox-content">
+					<div>
+						<div class="feed-activity-list">
+							<div class="feed-element" ng-repeat="record in myrecords">
+								<a ui-sref="profile" class="pull-left"> <img ng-cloak
+									alt="image" class="img-circle"
+									ng-src="{{:: record.photo[0].url}}">
+								</a>
+
+								<div class="media-body ">
+									<small class="pull-right"><a
+										ng-click="changeProfile(record.identifier[0].value)">Switch</a></small>
+									<strong><span
+										ng-repeat="prefix in record.name[0].prefix">{{::
+											prefix}}</span> <span ng-repeat="family in record.name[0].family">{{::
+											family}}</span> <span ng-repeat="given in record.name[0].given">{{::
+											given}} </span> </strong> <br> <small class="text-muted">{{::
+										record.gender}} - {{:: record.birthDate | date:'mediumDate'}}</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ibox float-e-margins">
+				<div class="ibox-title">
+						<i class="pull-left fa fa-calendar fa-lg"></i>
+						<h5>What's new</h5>
+					</div>
+				<div class="ibox-content">
+					<div class="feed-activity-list">
+						<div class="feed-element">
+							<span class="pull-left"><i class="fa fa-heartbeat fa-lg"></i></span>
+
+							<div class="media-body">
+								<span class="badge badge-danger pull-right">8</span> <strong>Patology</strong><br>
+								last update 23 Jul 2015
+							</div>
+						</div>
+						<div class="feed-element">
+							<span class="pull-left"><i class="fa fa-camera fa-lg"></i></span>
+
+							<div class="media-body">
+								<span class="badge badge-danger pull-right">3</span> <strong>Imaging</strong><br>
+								last update 23 Jul 2015
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div ng-controller="PHSCtrl as phsCtrl">
+				<div class="ibox float-e-margins">
+					<div class="ibox-title">
+						<i class="pull-left fa fa-exclamation-circle fa-lg"></i>
+						<h5>Allergies</h5>
+						<div class="pull-right">
+							<a ng-click="phsCtrl.getPHS()"><li class="fa fa-refresh"></li></a>
+							<a
+								ui-sref="views.view({repoId: phsmetadata.identifier[0].value, docId: phsmetadata.masterIdentifier.value})"><small>
+									View</small></a>
+						</div>
+					</div>
+					<div class="ibox-content">
+						<div>
+							<div class="feed-activity-list">
+								<div ng-if="phsDocument" class="feed-element"
+									ng-repeat="entry in phsDocument.entry | filter:entry.resource.resourceType= 'AllergyIntolerance'">
+									<span class="pull-left"> </span>
+
+									<div class="media-body">
+										<small class="pull-right text-navy">{{entry.resource.recordedDate
+											| date:'mediumDate'}}</small> <strong>{{entry.resource.substance.coding[0].display}}</strong><br>
+										{{entry.resource.event[0].manifestation[0].coding[0].display}}
+									</div>
+								</div>
+								<div ng-if="error">
+									<span>{{error.message}}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="ibox float-e-margins">
+					<div class="ibox-title">
+						<i class="pull-left fa fa-heart-o fa-lg"></i>
+						<h5>Medications</h5>
+
+						<div class="pull-right">
+							<a ng-click="phsCtrl.getPHS()"><li class="fa fa-refresh"></li></a>
+							<a
+								ui-sref="views.view({repoId: phsmetadata.identifier[0].value, docId: phsmetadata.masterIdentifier.value})"><small>
+									View</small></a>
+						</div>
+					</div>
+					<div class="ibox-content">
+						<div>
+							<div class="feed-activity-list">
+								<div ng-if="phsDocument" class="feed-element"
+									ng-repeat="entry in phsDocument.entry | filter:entry.resource.resourceType= 'MedicationPrescription'">
+									<span class="pull-left"> </span>
+
+									<div class="media-body">
+										<small class="pull-right text-navy">{{entry.resource.dateWritten
+											| date:'mediumDate'}}</small> <strong>{{entry.resource.medication.display}}</strong><br>
+										{{entry.resource.dosageInstruction[0].text}}
+									</div>
+								</div>
+								<div ng-if="error">
+									<span>{{error.message}}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ibox float-e-margins"
+				ng-controller="NotesCtrl as notesCtrl" ng-cloak>
+				<div class="ibox-title">
+					<i class="pull-left fa fa-files-o fa-lg"></i>
+					<h5>My Notes</h5>
+					<div class="pull-right">
+						<a ng-click="notesCtrl.findNotes()"><li class="fa fa-refresh"></li></a>
+						<a ui-sref="documents.phn"><small>View All</small></a>
+					</div>
+				</div>
+				<div class="ibox-content">
+					<div class="feed-activity-list">
+						<div>
+							<div ng-if="!error" class="feed-element"
+								ng-repeat="entry in notesCtrl.documentResult | orderBy:'-resource.created'">
+								<div>
+									<a
+										ui-sref="views.view({repoId: entry.resource.identifier[0].value, docId: entry.resource.masterIdentifier.value})"><span
+										class="pull-right text-navy fa fa-angle-right fa-lg"> </span>
+									</a> <strong>{{entry.resource.description}}</strong>
+									<div></div>
+									<small class="text-muted"><li class="fa fa-clock-o"></li>
+										{{entry.resource.indexed | date:'mediumDate'}}</small>
+								</div>
+							</div>
+							<div ng-if="error">
+								<span>{{error.message}}</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-6 col-md-4"
+			ng-controller="TimelineCtrl as timelineCtrl">
+			<div class="ibox float-e-margins">
+				<div class="ibox-title">
+					<i class="pull-left fa fa-history fa-lg"></i>
+					<h5>Timeline</h5>
+
+					<div class="pull-right">
+						<a ng-click="timelineCtrl.loadTimelineDocuments()"><li
+							class="fa fa-refresh"></li></a> <a ui-sref="documents.search"><small>View
+								All</small></a>
+					</div>
+				</div>
+
+				<div class="ibox-content inspinia-timeline">
+					<div ng-if="!error" id="vertical-timeline"
+						class="vertical-container dark-timeline">
+						<div class="vertical-timeline-block"
+							ng-repeat="entry in timelineList | orderBy:'-resource.created'">
+							<div class="vertical-timeline-icon yellow-bg">
+								<i class="fa fa-file-text"></i>
+							</div>
+
+							<div class="vertical-timeline-content">
+								<h4>
+									<a
+										ui-sref="views.view({repoId: entry.resource.identifier[0].value, docId: entry.resource.masterIdentifier.value})">{{entry.resource.description}}</a>
+								</h4>
+								<p>
+									<small class="text-grey">Author:
+										{{entry.resource.author[0].reference.split('^')[1]}}
+										{{entry.resource.author[0].reference.split('^')[2]}}
+										{{entry.resource.author[0].reference.split('^')[5]}}</small><br /> <small
+										class="text-grey">Organisation:
+										{{entry.resource.custodian.reference.substring(0,
+										entry.resource.custodian.reference.indexOf('^'))}}</small>
+								</p>
+								<small class="vertical-date"> {{entry.resource.created |
+									date:'mediumDate'}} <small class="text-navy">({{entry.resource.created
+										| timeAgo}} ago)</small>
+								</small>
+							</div>
+						</div>
+					</div>
+					<div ng-if="error">
+						<span>{{error.message}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

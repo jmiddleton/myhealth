@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+	<description>Example configuration to get you started.</description>
+
+	<context:component-scan base-package="ar.com.tunuyan.health" />
+
+	<bean id="messageFactory" class="org.springframework.ws.soap.saaj.SaajSoapMessageFactory">
+		<property name="soapVersion">
+			<util:constant static-field="org.springframework.ws.soap.SoapVersion.SOAP_12" />
+		</property>
+	</bean>
+
+	<bean id="webServiceTemplate" class="org.springframework.ws.client.core.WebServiceTemplate">
+		<constructor-arg ref="messageFactory" />
+		<property name="messageSender" ref="messageSender" />
+	</bean>
+
+	<bean id="messageSender" class="org.springframework.ws.transport.http.HttpComponentsMessageSender"></bean>
+
+	<bean id="authenticate" class="ar.com.tunuyan.health.ws.impl.B2MPcehrClientImpl">
+		<property name="uri" value="https://mobile.ehealth.gov.au/authenticate" />
+		<property name="action" value="http://ns.electronichealth.net.au/pcehr/svc/AuthenticateUser/1.0/AuthenticateUserPortType/authenticateUserRequest" />
+		<property name="responseCallback" ref="authenticateMessageCallback" />
+	</bean>
+
+	<bean id="getRecordList" class="ar.com.tunuyan.health.ws.impl.B2MPcehrClientImpl">
+		<property name="uri" value="https://mobile.ehealth.gov.au/getPCEHRRecordList" />
+		<property name="action" value="http://ns.electronichealth.net.au/pcehr/svc/GetPCEHRRecordList/1.0/GetPCEHRRecordListPortType/getPCEHRRecordListRequest" />
+		<property name="responseCallback" ref="saxonMessageCallback" />
+	</bean>
+
+	<bean id="getView" class="ar.com.tunuyan.health.ws.impl.B2MPcehrClientImpl">
+		<property name="uri" value="https://mobile.ehealth.gov.au/getView" />
+		<property name="action" value="http://ns.electronichealth.net.au/pcehr/svc/GetView/1.0/GetViewPortType/getViewRequest" />
+		<property name="baseXsltPath" value="classpath:/META-INF/xslt/"/>
+	</bean>
+
+	<bean id="getDocumentList" class="ar.com.tunuyan.health.ws.impl.B2MPcehrClientImpl">
+		<property name="uri" value="https://mobile.ehealth.gov.au/getDocumentList" />
+		<property name="action" value="urn:ihe:iti:2007:RegistryStoredQuery" />
+		<property name="responseCallback" ref="getDocumentListMessageCallback" />
+	</bean>
+
+	<bean id="getDocument" class="ar.com.tunuyan.health.ws.impl.B2MPcehrClientImpl">
+		<property name="uri" value="https://mobile.ehealth.gov.au/getDocument" />
+		<property name="action" value="urn:ihe:iti:2007:RetrieveDocumentSet" />
+		<property name="baseXsltPath" value="classpath:/META-INF/xslt/"/>
+	</bean>
+
+	<bean id="uploadDocument" class="ar.com.tunuyan.health.ws.impl.B2MPcehrClientImpl">
+		<property name="uri" value="https://mobile.ehealth.gov.au/uploadDocument" />
+		<property name="action" value="urn:ihe:iti:2007:ProvideAndRegisterDocumentSet-b" />
+	</bean>
+
+	<bean id="authenticateMessageCallback" class="ar.com.tunuyan.health.ws.impl.callback.AuthenticateWebServiceMessageCallback">
+	</bean>
+
+	<bean id="saxonMessageCallback" class="ar.com.tunuyan.health.ws.impl.callback.SaxonResponseWebServiceMessageCallback">
+		<property name="xslt" value="classpath:/META-INF/xslt/getRecordList_1.0.xslt" />
+	</bean>
+
+	<bean id="getDocumentListMessageCallback" class="ar.com.tunuyan.health.ws.impl.callback.SaxonResponseWebServiceMessageCallback">
+		<property name="xslt" value="classpath:/META-INF/xslt/getDocumentList_1.0.xslt" />
+	</bean>
+
+	<bean id="velocityEngine" class="org.springframework.ui.velocity.VelocityEngineFactoryBean">
+		<property name="velocityProperties">
+			<value>
+				resource.loader=class
+				class.resource.loader.class=org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+			</value>
+		</property>
+	</bean>
+</beans>

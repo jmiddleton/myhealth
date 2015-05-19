@@ -1,0 +1,71 @@
+<ns4:section>
+	<ns4:code code="101.16649" codeSystem="1.2.36.1.2001.1001.101"
+		codeSystemName="NCTIS Data Components" displayName="Pharmaceutical Benefit Items" />
+	<ns4:entry typeCode="DRIV">
+		<ns4:supply classCode="SPLY" moodCode="EVN">
+			<ns4:code code="102.16674" codeSystem="1.2.36.1.2001.1001.101"
+				codeSystemName="NCTIS Data Components" codeSystemVersion="v1.0"
+				displayName="Pharmaceutical Benefit Item" />
+			<ns4:effectiveTime value="201407300000+1000" />
+			<ns4:quantity value="28" />
+			<ns4:product typeCode="PRD">
+				<ns4:manufacturedProduct classCode="MANU">
+					<ns4:manufacturedMaterial classCode="MMAT"
+						determinerCode="KIND">
+						<ns4:code code="02982Y" codeSystem="1.2.36.1.2001.1005.22"
+							codeSystemName="Australian PBS Code" codeSystemVersion="v1.0"
+							displayName="GRISEOFULVIN" />
+						<ns4:name>GRISOVIN 400</ns4:name>
+					</ns4:manufacturedMaterial>
+				</ns4:manufacturedProduct>
+			</ns4:product>
+			<ns4:entryRelationship typeCode="SUBJ">
+				<ns4:observation classCode="OBS" moodCode="EVN">
+					<ns4:code code="103.16677" codeSystem="1.2.36.1.2001.1001.101"
+						codeSystemName="NCTIS Data Components" codeSystemVersion="v1.0"
+						displayName="Item Form and Strength" />
+					<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:type="ns4:ST">GRISEOFULVIN 500MG TABLET, 28</ns4:value>
+				</ns4:observation>
+			</ns4:entryRelationship>
+			<ns4:entryRelationship typeCode="REFR">
+				<ns4:substanceAdministration classCode="SBADM"
+					moodCode="RQO">
+					<ns4:effectiveTime value="201407240000+1000" />
+					<ns4:repeatNumber>
+						<ns4:high inclusive="true" value="2" />
+					</ns4:repeatNumber>
+					<ns4:consumable typeCode="CSM">
+						<ns4:manufacturedProduct classCode="MANU">
+							<ns4:manufacturedMaterial classCode="MMAT"
+								determinerCode="KIND" />
+						</ns4:manufacturedProduct>
+					</ns4:consumable>
+				</ns4:substanceAdministration>
+			</ns4:entryRelationship>
+		</ns4:supply>
+	</ns4:entry>
+	<ns4:entry>
+		<ns4:act classCode="ACT" moodCode="EVN">
+			<ns4:id nullFlavor="NA" />
+			<ns4:code code="102.16692.172.1.3" codeSystem="1.2.36.1.2001.1001.101"
+				codeSystemName="NCTIS Data Components" displayName="Pharmaceutical Benefit Items Document Provenance" />
+			<ns4:reference typeCode="REFR">
+				<ns4:seperatableInd value="true" />
+				<ns4:externalDocument classCode="DOC" moodCode="EVN">
+					<ns4:templateId extension="1.0"
+						root="1.2.36.1.2001.1001.101.100.1002.142" />
+					<ns4:id root="1.2.36.1.2001.1007.11.8003640002000019.1000000076906277" />
+				</ns4:externalDocument>
+			</ns4:reference>
+			<ns4:reference typeCode="REFR">
+				<ns4:seperatableInd value="true" />
+				<ns4:externalAct>
+					<ns4:id root="1.2.36.1.2001.1007.10.8003640002000019" />
+					<ns4:code code="10" codeSystem="1.2.36.1.2001.1007"
+						codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+				</ns4:externalAct>
+			</ns4:reference>
+		</ns4:act>
+	</ns4:entry>
+</ns4:section>

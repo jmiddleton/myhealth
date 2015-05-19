@@ -1,0 +1,10 @@
+<ns1:getView
+	xmlns:ns1="http://ns.electronichealth.net.au/pcehr/xsd/interfaces/GetView/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ns1:view xsi:type="ns3:medicareOverview"
+		xmlns:ns3="http://ns.electronichealth.net.au/pcehr/xsd/interfaces/MedicareOverview/1.0">
+		<ns3:versionNumber>1.0</ns3:versionNumber>
+		<ns3:fromDate>${fromDate}</ns3:fromDate>
+		<ns3:toDate>${toDate}</ns3:toDate>
+	</ns1:view>
+</ns1:getView>

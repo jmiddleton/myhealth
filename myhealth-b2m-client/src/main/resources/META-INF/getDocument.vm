@@ -1,0 +1,6 @@
+<urn:RetrieveDocumentSetRequest xmlns:urn="urn:ihe:iti:xds-b:2007">
+	<urn:DocumentRequest>
+		<urn:RepositoryUniqueId>${documentRepo}</urn:RepositoryUniqueId>
+		<urn:DocumentUniqueId>${documentId}</urn:DocumentUniqueId>
+	</urn:DocumentRequest>
+</urn:RetrieveDocumentSetRequest>

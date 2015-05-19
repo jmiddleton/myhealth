@@ -1,0 +1,166 @@
+<ns11:ClinicalDocument xmlns:ns11="urn:hl7-org:v3" xmlns:ns6="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:ns5="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"
+	xmlns:ns8="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0" xmlns:ns7="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0" xmlns:ns13="http://view.htb.ws.pcehr.au/"
+	xmlns:ns12="http://di.view.htb.ws.pcehr.au/" xmlns:ns9="http://common.htb.ws.pcehr.au/" xmlns:ns10="http://common.view.htb.ws.pcehr.au/" xmlns:ns14="http://hro.view.htb.ws.pcehr.au/"
+	xmlns:ns3="http://common.pna.ws.pcehr.au/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ns11:typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3" />
+	<ns11:templateId extension="1.1" root="1.2.36.1.2001.1001.100.1002.210" />
+	<ns11:templateId extension="1.0" root="1.2.36.1.2001.1001.100.149" />
+	<ns11:id root="2.25.266646352434143436595391708843174197229" />
+	<ns11:code code="100.16872" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Observation View" />
+	<ns11:title>Observation View</ns11:title>
+	<ns11:effectiveTime value="20150416190415+1000" />
+	<ns11:confidentialityCode nullFlavor="NA" />
+	<ns11:languageCode code="en-AU" />
+	<ext:completionCode xmlns:ext="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0" code="F" codeSystem="1.2.36.1.2001.1001.101.104.20104"
+		codeSystemName="NCTIS Document Status Values" displayName="Final" />
+	<ns11:recordTarget typeCode="RCT">
+		<ns11:patientRole classCode="PAT">
+			<ns11:id root="2.25.226343033152561756765573272216528375959" />
+			<ns11:addr>
+				<ns11:streetAddressLine partType="SAL">35 GENEVIEVE DR</ns11:streetAddressLine>
+				<ns11:city partType="CTY">YARRALUMLA</ns11:city>
+				<ns11:state partType="STA">ACT</ns11:state>
+				<ns11:postalCode partType="ZIP">2600</ns11:postalCode>
+			</ns11:addr>
+			<ns11:patient classCode="PSN" determinerCode="INSTANCE">
+				<ns11:id nullFlavor="NA" />
+				<ns11:name>
+					<ns11:family partType="FAM">PAULA</ns11:family>
+					<ns11:given partType="GIV">SOON AUGUSTUS</ns11:given>
+				</ns11:name>
+				<ns11:administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.13.68" codeSystemName="AS 5017-2006 Health Care Client Identifier Sex"
+					displayName="Male" />
+				<ns11:birthTime value="19570803" />
+				<ns11:ethnicGroupCode code="9" codeSystem="2.16.840.1.113883.3.879.291036" codeSystemName="METeOR Indigenous Status"
+					displayName="Not stated/inadequately described" />
+				<ext:asEntityIdentifier xmlns:ext="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0" classCode="IDENT">
+					<ext:id assigningAuthorityName="IHI" root="1.2.36.1.2001.1003.0.8003606789135187" />
+					<ext:assigningGeographicArea classCode="PLC">
+						<ext:name>National Identifier</ext:name>
+					</ext:assigningGeographicArea>
+				</ext:asEntityIdentifier>
+			</ns11:patient>
+		</ns11:patientRole>
+	</ns11:recordTarget>
+	<ns11:author typeCode="AUT">
+		<ns11:time value="20150416190415+1000" />
+		<ns11:assignedAuthor>
+			<ns11:id root="2.25.213192201995395740663830145044035083135" />
+			<ns11:code nullFlavor="NA" />
+			<ns11:addr nullFlavor="NA" />
+			<ns11:assignedAuthoringDevice>
+				<ns11:softwareName>PCEHR</ns11:softwareName>
+				<ext:asEntityIdentifier xmlns:ext="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0" classCode="IDENT">
+					<ext:id assigningAuthorityName="PAI-D" root="1.2.36.1.2001.1007.20.8003640003000026" />
+					<ext:assigningGeographicArea classCode="PLC">
+						<ext:name>National Identifier</ext:name>
+					</ext:assigningGeographicArea>
+				</ext:asEntityIdentifier>
+			</ns11:assignedAuthoringDevice>
+		</ns11:assignedAuthor>
+	</ns11:author>
+	<ns11:custodian typeCode="CST">
+		<ns11:assignedCustodian>
+			<ns11:representedCustodianOrganization>
+				<ns11:id root="2.25.102027009024959511170084836147896603600" />
+			</ns11:representedCustodianOrganization>
+		</ns11:assignedCustodian>
+	</ns11:custodian>
+	<ns11:component typeCode="COMP">
+		<ns11:structuredBody>
+			<ns11:component typeCode="COMP">
+				<ns11:section>
+					<ns11:id root="2.25.286242505925673538572778760812042198838" />
+					<ns11:code code="1" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" displayName="Consumer Entered Measurement Information" />
+					<ns11:title>Consumer Entered Measurement Information</ns11:title>
+					<ns11:text>
+						<ns11:table>
+							<ns11:caption>Consumer Entered Measurement Information</ns11:caption>
+							<ns11:thead>
+								<ns11:tr>
+									<ns11:th>Observation Date</ns11:th>
+									<ns11:th>Measurement Type</ns11:th>
+									<ns11:th>Value</ns11:th>
+									<ns11:th>UOM</ns11:th>
+									<ns11:th>Percentile</ns11:th>
+									<ns11:th>Recorded By</ns11:th>
+									<ns11:th>Link</ns11:th>
+								</ns11:tr>
+							</ns11:thead>
+							<ns11:tbody>
+								<ns11:tr>
+									<ns11:td>16 Apr 1965 00:00+1000</ns11:td>
+									<ns11:td>Body weight (observable entity)</ns11:td>
+									<ns11:td>30.000</ns11:td>
+									<ns11:td>kg</ns11:td>
+									<ns11:td />
+									<ns11:td>Consumer</ns11:td>
+									<ns11:td>
+										<ns11:linkHtml ID="_d4e12cf3-54de-4df3-b0c0-98971179664e" href="pcehr:1.2.36.1.2001.1007.10.8003640002000050/2.25.141310713487896067674736779723909754059">Consumer Entered Measurement Information</ns11:linkHtml>
+									</ns11:td>
+								</ns11:tr>
+							</ns11:tbody>
+						</ns11:table>
+					</ns11:text>
+					<ns11:entry typeCode="DRIV">
+						<ns11:organizer classCode="CLUSTER" moodCode="EVN">
+							<ns11:id root="4f025b80-ef0f-4f95-92a0-d22317e3e503" />
+							<ns11:code code="1" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" codeSystemVersion="v1.0"
+								displayName="Consumer Entered Measurement Information" />
+							<ns11:statusCode code="completed" />
+							<ns11:effectiveTime value="19650416000000+1000" />
+							<ns11:component typeCode="COMP">
+								<ns11:seperatableInd value="false" />
+								<ns11:observation classCode="OBS" moodCode="EVN">
+									<ns11:id root="dc092325-3921-4982-b56c-ccd1e05004e3" />
+									<ns11:code code="27113001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" codeSystemVersion="20140531"
+										displayName="Body weight (observable entity)" />
+									<ns11:text>
+										<ns11:reference value="#_d4e12cf3-54de-4df3-b0c0-98971179664e" />
+									</ns11:text>
+									<ns11:value unit="kg" value="30.000" xsi:type="ns11:PQ" />
+									<ns11:entryRelationship typeCode="MFST">
+										<ns11:observation classCode="OBS" moodCode="EVN">
+											<ns11:code code="415068004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT-AU" displayName="Percentile value" />
+											<ns11:value nullFlavor="NA" xsi:type="ns11:PQ" />
+										</ns11:observation>
+									</ns11:entryRelationship>
+								</ns11:observation>
+							</ns11:component>
+							<ns11:component>
+								<ns11:act classCode="ACT" moodCode="EVN">
+									<ns11:id nullFlavor="NA" />
+									<ns11:code code="102.16692.179.1.2" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Record Link" />
+									<ns11:reference typeCode="REFR">
+										<ns11:seperatableInd value="true" />
+										<ns11:externalDocument classCode="DOC" moodCode="EVN">
+											<ns11:templateId extension="1.0" root="1.2.36.1.2001.1001.101.100.1002.170" />
+											<ns11:id root="2.25.141310713487896067674736779723909754059" />
+										</ns11:externalDocument>
+									</ns11:reference>
+									<ns11:reference typeCode="REFR">
+										<ns11:seperatableInd value="true" />
+										<ns11:externalAct>
+											<ns11:id root="1.2.36.1.2001.1007.10.8003640002000050" />
+											<ns11:code code="10" codeSystem="1.2.36.1.2001.1007" codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+										</ns11:externalAct>
+									</ns11:reference>
+								</ns11:act>
+							</ns11:component>
+						</ns11:organizer>
+					</ns11:entry>
+				</ns11:section>
+			</ns11:component>
+			<ns11:component typeCode="COMP">
+				<ns11:section>
+					<ns11:id root="2.25.248196861640953879973437708417924293591" />
+					<ns11:code code="2" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" displayName="Provider Entered Measurement Information" />
+					<ns11:title>Provider Entered Measurement Information</ns11:title>
+					<ns11:text>
+						<ns11:paragraph>No data recorded for this section.</ns11:paragraph>
+					</ns11:text>
+				</ns11:section>
+			</ns11:component>
+		</ns11:structuredBody>
+	</ns11:component>
+</ns11:ClinicalDocument>

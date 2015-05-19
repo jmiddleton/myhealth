@@ -1,0 +1,14 @@
+{
+    "growth": {
+        "title": "Curvas de Crecimiento",
+        "subtitle": "Las Curvas de Crecimiento consisten en series de curva de porcentajes que ilustran la distribucion de una medida del cuerpo en ninos.",
+        "cdcrecomm": {
+            "title": "CDC recomienda que las entidades de salud:",
+            "who": "Usen el sistema <strong>WHO graficas de crecimiento</strong> para monitorear el crecimiento de infantes y ninos entre 0 y 2 anios de edad.",
+            "cdc": "Usen el sistema <strong>CDC graficas de crecimiento</strong> para monitorear el crecimiento de ninos de 2 anios de edad o mayores.",
+            "moreinfo": " Para mas informacion, por favor visite "
+        },
+        "measurement" : "Sistema",
+        "period" : "Rango de Edad"
+    }
+}

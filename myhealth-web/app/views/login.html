@@ -1,0 +1,73 @@
+<div class="background_login">
+	<div class="middle-box text-center animated fadeInDown"
+		ng-controller="LoginCtrl as loginCtrl">
+		<div ng-if="errorConnection != null" class="label-danger">
+			<span><strong> {{errorConnection.message}}</strong></span>
+		</div>
+		<div>
+			<div>
+				<h1 class="logo-name">MyH+</h1>
+			</div>
+			<br />
+			<h3 class="white-color">Welcome to MyHealth+</h3>
+			<p class="white-color">A secure, free web-based Electronic Health Record
+				designed for patients to manage their own record information. Fully
+				integrated with PCEHR.</p>
+			<p class="white-color">Please click on the below link before authentication.</p>
+			<a href="https://myhealth-api.puntanegra.info" target="_blank">validate myhealth-api certificate</a>
+
+			<div class="alert alert-danger alert-dismissable"
+				ng-show="loginCtrl.errorMsg && loginCtrl.errorMsg != ''">
+				<button type="button" class="close"
+					ng-click="loginCtrl.closeError()">&times;</button>
+				<strong>{{loginCtrl.errorMsg}}</strong>
+			</div>
+			<div id="divSecretQuestion"
+				ng-show="loginCtrl.secretQuestion != null" style="display: hidden">
+				<p class="lead white-color">{{loginCtrl.secretQuestion}}</p>
+			</div>
+			<div class="loginform">
+				<form class="m-t" role="form"
+					ng-show="loginCtrl.secretQuestion == null" name="login">
+					<div class="form-group">
+						<input type="text" ng-model="user.username" name="username"
+							class="form-control" placeholder="Username" required="">
+					</div>
+					<div class="form-group">
+						<input type="password" ng-model="user.password" name="password"
+							class="form-control" placeholder="Password" required="">
+					</div>
+					<button ladda="loginLoading"
+						style="padding: 6px 12px; background-color: #1ab394; border-color: #1ab394;"
+						data-spinner-size="20" data-style="expand-right"
+						class="btn btn-primary block full-width m-b"
+						ng-click="loginCtrl.loginUser(user)">Login</button>
+
+					<p class="text-center white-color">
+						<small>Please note this site does not store or collect
+							user identities.</small>
+					</p>
+				</form>
+			</div>
+			<div class="loginform" id="divSecretQuestion2"
+				ng-show="loginCtrl.secretQuestion != null" style="display: hidden">
+				<form class="form-signin" name="loginSQ">
+					<input type="text" ng-model="user.secretAnswer" name="secretAnswer"
+						required class="form-control" placeholder="Secret answer"
+						required=""> <label></label>
+					<button ladda="loginSQLoading"
+						style="padding: 6px 12px; background-color: #1ab394; border-color: #1ab394;"
+						data-spinner-size="20" data-style="expand-right"
+						class="btn btn-primary block full-width m-b"
+						ng-click="loginCtrl.loginSecretAnswer(user)">Continue</button>
+					<button class="btn btn-secondary block full-width m-b"
+						ng-click="loginCtrl.loginCancel()">Cancel</button>
+				</form>
+			</div>
+
+			<p class="m-t">
+				<small>PuntaNegra &copy; 2015</small>
+			</p>
+		</div>
+	</div>
+</div>

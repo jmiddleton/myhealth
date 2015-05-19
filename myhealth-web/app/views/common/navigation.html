@@ -1,0 +1,31 @@
+
+<nav class="navbar-default navbar-static-side" role="navigation" ng-cloak>
+	<div class="sidebar-collapse">
+		<ul side-navigation class="nav" id="side-menu">
+			<li class="nav-header">
+				<div class="profile-element feed-element">
+					<img ng-if="myrecord && myrecord.photo[0] && myrecord.photo[0].url" alt="name" class="img-circle" ng-src="{{:: myrecord.photo[0].url}}"> 
+					<img ng-if="!myrecord || !myrecord.photo[0] || !myrecord.photo[0].url" alt="image" class="img-circle" src="images/empty.png">
+					<span ng-repeat="given in myrecord.name[0].given"> {{:: given}}</span>
+				</div>
+			</li>
+
+			<li ng-class="{active: $state.includes('app')}"><a ui-sref="app.profile"><i class="fa fa-heart-o"></i> <span class="nav-label"
+					translate="main.MYHEALTH"></span></a></li>
+
+			<li ng-class="{active: $state.includes('charts.growthcharts')}"><a ui-sref="charts.growthcharts"><i class="fa fa-bar-chart-o"></i><span
+					class="nav-label" translate="main.GRAPHS"></span></a></li>
+
+			<li ng-class="{active: $state.includes('notes.phn')}"><a ui-sref="notes.phn"><i class="fa fa-file-text"></i><span class="nav-label">Personal Health Notes</span></a></li>
+			
+			<li ng-class="{active: $state.includes('documents')}"><a href="#"><i class="fa fa-files-o"></i> <span class="nav-label"
+					translate="main.DOCUMENTS"></span><span class="fa arrow"></span></a>
+				<ul ng-cloak class="nav nav-second-level" ng-class="{in: $state.includes('documents')}">
+					<li ui-sref-active="active"><a ui-sref="documents.search"><i class="fa fa-search"></i><span class="nav-label">Search</span></a></li>
+					<li ui-sref-active="active"><a ui-sref="documents.mbs"><i class="fa fa-folder"></i><span class="nav-label">Medicare Benefits</span></a></li>
+					<li ui-sref-active="active"><a ui-sref="documents.pbs"><i class="fa fa-files-o"></i><span class="nav-label">Pharmaceutical Benefits</span></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</nav>

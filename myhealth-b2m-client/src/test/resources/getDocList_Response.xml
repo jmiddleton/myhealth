@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns8:AdhocQueryResponse xmlns:ns8="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0" xmlns:ns4="urn:hl7-org:v3" xmlns:ns3="http://common.pna.ws.pcehr.au/"
+	xmlns:ns6="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:ns5="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0" xmlns:ns7="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0"
+	xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns13="http://view.htb.ws.pcehr.au/" xmlns:ns12="http://di.view.htb.ws.pcehr.au/" xmlns:ns9="http://common.htb.ws.pcehr.au/"
+	xmlns:ns11="http://path.view.htb.ws.pcehr.au/" xmlns:ns10="http://common.view.htb.ws.pcehr.au/" xmlns:ns14="http://hro.view.htb.ws.pcehr.au/"
+	xmlns:soap="http://www.w3.org/2003/05/soap-envelope" status="urn:oasis:names:tc:ebxml-regrep:ResponseStatusType:Success">
+	<ns6:RegistryObjectList>
+		<ns6:ExtrinsicObject id="urn:uuid:375e436b-cb57-4fce-9133-acc12a2436f6" isOpaque="false" lid="urn:uuid:375e436b-cb57-4fce-9133-acc12a2436f6"
+			mimeType="application/zip" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved">
+			<ns6:Slot name="creationTime">
+				<ns6:ValueList>
+					<ns6:Value>201408280000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="languageCode">
+				<ns6:ValueList>
+					<ns6:Value>en-AU</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStartTime">
+				<ns6:ValueList>
+					<ns6:Value>201408280000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStopTime">
+				<ns6:ValueList>
+					<ns6:Value>201408280000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="sourcePatientId">
+				<ns6:ValueList>
+					<ns6:Value>8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="hash">
+				<ns6:ValueList>
+					<ns6:Value>da39a3ee5e6b4b0d3255bfef95601890afd80709</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="size">
+				<ns6:ValueList>
+					<ns6:Value>0</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="repositoryUniqueId">
+				<ns6:ValueList>
+					<ns6:Value>1.2.36.1.2001.1007.10.8003640002000043</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Name>
+				<ns6:LocalizedString charset="UTF-8" value="Medicare/DVA Benefits Report" xml:lang="en-us" />
+			</ns6:Name>
+			<ns6:Description>
+				<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+			</ns6:Description>
+			<ns6:VersionInfo versionName="1" />
+			<ns6:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:375e436b-cb57-4fce-9133-acc12a2436f6"
+				id="urn:uuid:869bdeab-4873-47ed-8555-38db01786313" lid="urn:uuid:869bdeab-4873-47ed-8555-38db01786313" nodeRepresentation=""
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="authorPerson">
+					<ns6:ValueList>
+						<ns6:Value>^^DHS^^^^&amp;1.2.36.1.2001.1007.20.8003640003000018&amp;ISO</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Slot name="authorInstitution">
+					<ns6:ValueList>
+						<ns6:Value>DHS Medicare^^^^^^^^^1.2.36.1.2001.1007.1.8003640001000010</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:375e436b-cb57-4fce-9133-acc12a2436f6"
+				id="urn:uuid:7dd39458-fc25-4fac-99df-521ce5c855ba" lid="urn:uuid:7dd39458-fc25-4fac-99df-521ce5c855ba" nodeRepresentation="100.16644"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:375e436b-cb57-4fce-9133-acc12a2436f6"
+				id="urn:uuid:1602a59d-950d-4513-b06b-f86040a57bf5" lid="urn:uuid:1602a59d-950d-4513-b06b-f86040a57bf5" nodeRepresentation="GENERAL"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_DocAccessLevels</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="General Access" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:375e436b-cb57-4fce-9133-acc12a2436f6"
+				id="urn:uuid:ab17eda8-c2df-4719-bea5-4588c711fb09" lid="urn:uuid:ab17eda8-c2df-4719-bea5-4588c711fb09" nodeRepresentation="1.2.36.1.2001.1006.1.16644.6"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_FormatCodes</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:375e436b-cb57-4fce-9133-acc12a2436f6"
+				id="urn:uuid:08a9901c-bc94-4e9d-8bc5-ffc8c0a97b37" lid="urn:uuid:08a9901c-bc94-4e9d-8bc5-ffc8c0a97b37" nodeRepresentation="8401"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:375e436b-cb57-4fce-9133-acc12a2436f6"
+				id="urn:uuid:6c11d3d8-d9e1-4bf5-89dc-2706f2671063" lid="urn:uuid:6c11d3d8-d9e1-4bf5-89dc-2706f2671063" nodeRepresentation="8401-6"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:375e436b-cb57-4fce-9133-acc12a2436f6"
+				id="urn:uuid:0e472116-8f54-416a-81d2-17f149641ecc" lid="urn:uuid:0e472116-8f54-416a-81d2-17f149641ecc" nodeRepresentation="100.16644"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:ExternalIdentifier id="urn:uuid:736398a7-04e8-4fb6-9d12-303174024845" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"
+				lid="urn:uuid:736398a7-04e8-4fb6-9d12-303174024845" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:375e436b-cb57-4fce-9133-acc12a2436f6" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.patientId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+			<ns6:ExternalIdentifier id="urn:uuid:57cd2fff-7eaf-4ad6-9c9b-28d20691ae74" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"
+				lid="urn:uuid:57cd2fff-7eaf-4ad6-9c9b-28d20691ae74" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:375e436b-cb57-4fce-9133-acc12a2436f6" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="1.2.36.1.2001.1007.11.8003640002000043.1000000124081927">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.uniqueId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+		</ns6:ExtrinsicObject>
+		<ns6:ExtrinsicObject id="urn:uuid:13120be6-2cac-4581-b7d5-2dbad940c830" isOpaque="false" lid="urn:uuid:13120be6-2cac-4581-b7d5-2dbad940c830"
+			mimeType="application/zip" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved">
+			<ns6:Slot name="creationTime">
+				<ns6:ValueList>
+					<ns6:Value>201405090000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="languageCode">
+				<ns6:ValueList>
+					<ns6:Value>en-AU</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStartTime">
+				<ns6:ValueList>
+					<ns6:Value>201405090000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStopTime">
+				<ns6:ValueList>
+					<ns6:Value>201405090000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="sourcePatientId">
+				<ns6:ValueList>
+					<ns6:Value>8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="hash">
+				<ns6:ValueList>
+					<ns6:Value>da39a3ee5e6b4b0d3255bfef95601890afd80709</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="size">
+				<ns6:ValueList>
+					<ns6:Value>0</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="repositoryUniqueId">
+				<ns6:ValueList>
+					<ns6:Value>1.2.36.1.2001.1007.10.8003640002000043</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Name>
+				<ns6:LocalizedString charset="UTF-8" value="Medicare/DVA Benefits Report" xml:lang="en-us" />
+			</ns6:Name>
+			<ns6:Description>
+				<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+			</ns6:Description>
+			<ns6:VersionInfo versionName="1" />
+			<ns6:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:13120be6-2cac-4581-b7d5-2dbad940c830"
+				id="urn:uuid:0a7b67d6-5ab8-4854-9d39-f7a43ce6a343" lid="urn:uuid:0a7b67d6-5ab8-4854-9d39-f7a43ce6a343" nodeRepresentation=""
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="authorPerson">
+					<ns6:ValueList>
+						<ns6:Value>^^DHS^^^^&amp;1.2.36.1.2001.1007.20.8003640003000018&amp;ISO</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Slot name="authorInstitution">
+					<ns6:ValueList>
+						<ns6:Value>DHS Medicare^^^^^^^^^1.2.36.1.2001.1007.1.8003640001000010</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:13120be6-2cac-4581-b7d5-2dbad940c830"
+				id="urn:uuid:b58fe716-ff8c-47a6-8794-2c7b3b73a39c" lid="urn:uuid:b58fe716-ff8c-47a6-8794-2c7b3b73a39c" nodeRepresentation="100.16644"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:13120be6-2cac-4581-b7d5-2dbad940c830"
+				id="urn:uuid:be89f21a-041e-4be1-99ae-d89c1688f61a" lid="urn:uuid:be89f21a-041e-4be1-99ae-d89c1688f61a" nodeRepresentation="GENERAL"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_DocAccessLevels</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="General Access" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:13120be6-2cac-4581-b7d5-2dbad940c830"
+				id="urn:uuid:00723f85-0cc0-46c5-9285-235d9d92a18e" lid="urn:uuid:00723f85-0cc0-46c5-9285-235d9d92a18e" nodeRepresentation="1.2.36.1.2001.1006.1.16644.6"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_FormatCodes</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:13120be6-2cac-4581-b7d5-2dbad940c830"
+				id="urn:uuid:df6aa87e-6663-4bc6-9f52-b917acdc3f70" lid="urn:uuid:df6aa87e-6663-4bc6-9f52-b917acdc3f70" nodeRepresentation="8401"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:13120be6-2cac-4581-b7d5-2dbad940c830"
+				id="urn:uuid:b218f381-be4d-48d4-bed3-5e0350e0bde9" lid="urn:uuid:b218f381-be4d-48d4-bed3-5e0350e0bde9" nodeRepresentation="8401-6"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:13120be6-2cac-4581-b7d5-2dbad940c830"
+				id="urn:uuid:93349fc9-6815-4e22-97da-6a78b84cc721" lid="urn:uuid:93349fc9-6815-4e22-97da-6a78b84cc721" nodeRepresentation="100.16644"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:ExternalIdentifier id="urn:uuid:17b1ae61-1859-42cd-9012-161c04add8f0" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"
+				lid="urn:uuid:17b1ae61-1859-42cd-9012-161c04add8f0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:13120be6-2cac-4581-b7d5-2dbad940c830" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.patientId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+			<ns6:ExternalIdentifier id="urn:uuid:520f73a9-ead6-48f8-ab08-16950fc5d8a0" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"
+				lid="urn:uuid:520f73a9-ead6-48f8-ab08-16950fc5d8a0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:13120be6-2cac-4581-b7d5-2dbad940c830" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="1.2.36.1.2001.1007.11.8003640002000043.1000000124081931">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.uniqueId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+		</ns6:ExtrinsicObject>
+		<ns6:ExtrinsicObject id="urn:uuid:848ded43-3d0e-4369-a464-daa770d125eb" isOpaque="false" lid="urn:uuid:848ded43-3d0e-4369-a464-daa770d125eb"
+			mimeType="application/zip" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved">
+			<ns6:Slot name="creationTime">
+				<ns6:ValueList>
+					<ns6:Value>201407300000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="languageCode">
+				<ns6:ValueList>
+					<ns6:Value>en-AU</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStartTime">
+				<ns6:ValueList>
+					<ns6:Value>201407300000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStopTime">
+				<ns6:ValueList>
+					<ns6:Value>201407300000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="sourcePatientId">
+				<ns6:ValueList>
+					<ns6:Value>8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="hash">
+				<ns6:ValueList>
+					<ns6:Value>da39a3ee5e6b4b0d3255bfef95601890afd80709</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="size">
+				<ns6:ValueList>
+					<ns6:Value>0</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="repositoryUniqueId">
+				<ns6:ValueList>
+					<ns6:Value>1.2.36.1.2001.1007.10.8003640002000019</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Name>
+				<ns6:LocalizedString charset="UTF-8" value="Pharmaceutical Benefits Report" xml:lang="en-us" />
+			</ns6:Name>
+			<ns6:Description>
+				<ns6:LocalizedString value="Pharmaceutical Benefits Report" />
+			</ns6:Description>
+			<ns6:VersionInfo versionName="1" />
+			<ns6:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:848ded43-3d0e-4369-a464-daa770d125eb"
+				id="urn:uuid:f0dc945b-47f5-42a7-8194-934b0f44f200" lid="urn:uuid:f0dc945b-47f5-42a7-8194-934b0f44f200" nodeRepresentation=""
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="authorPerson">
+					<ns6:ValueList>
+						<ns6:Value>^^DHS^^^^&amp;1.2.36.1.2001.1007.20.8003640003000018&amp;ISO</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Slot name="authorInstitution">
+					<ns6:ValueList>
+						<ns6:Value>DHS Medicare^^^^^^^^^1.2.36.1.2001.1007.1.8003640001000010</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:848ded43-3d0e-4369-a464-daa770d125eb"
+				id="urn:uuid:f1439867-5d0f-4ba0-8660-a695f2fb6ea9" lid="urn:uuid:f1439867-5d0f-4ba0-8660-a695f2fb6ea9" nodeRepresentation="100.16650"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Pharmaceutical Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:848ded43-3d0e-4369-a464-daa770d125eb"
+				id="urn:uuid:0bea2cf0-ac1a-49c5-b7c0-159e34cb8e92" lid="urn:uuid:0bea2cf0-ac1a-49c5-b7c0-159e34cb8e92" nodeRepresentation="GENERAL"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_DocAccessLevels</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="General Access" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:848ded43-3d0e-4369-a464-daa770d125eb"
+				id="urn:uuid:f4c18791-2541-4d8c-8a93-93d813e47874" lid="urn:uuid:f4c18791-2541-4d8c-8a93-93d813e47874" nodeRepresentation="1.2.36.1.2001.1006.1.16650.5"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_FormatCodes</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Pharmaceutical Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:848ded43-3d0e-4369-a464-daa770d125eb"
+				id="urn:uuid:7fbd0c41-a41d-4909-9a07-62cb716932b6" lid="urn:uuid:7fbd0c41-a41d-4909-9a07-62cb716932b6" nodeRepresentation="8401"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:848ded43-3d0e-4369-a464-daa770d125eb"
+				id="urn:uuid:ad35ba8f-6362-4e17-84b6-92815bf713ca" lid="urn:uuid:ad35ba8f-6362-4e17-84b6-92815bf713ca" nodeRepresentation="8401-6"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:848ded43-3d0e-4369-a464-daa770d125eb"
+				id="urn:uuid:4b03b6d0-f6db-424d-aeb8-9b5b6e12bfd9" lid="urn:uuid:4b03b6d0-f6db-424d-aeb8-9b5b6e12bfd9" nodeRepresentation="100.16650"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Pharmaceutical Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:ExternalIdentifier id="urn:uuid:6b51df56-812b-4611-89ba-2e1223052ed5" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"
+				lid="urn:uuid:6b51df56-812b-4611-89ba-2e1223052ed5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:848ded43-3d0e-4369-a464-daa770d125eb" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.patientId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+			<ns6:ExternalIdentifier id="urn:uuid:36499aa1-efd4-4f61-ac6e-59ee24260414" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"
+				lid="urn:uuid:36499aa1-efd4-4f61-ac6e-59ee24260414" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:848ded43-3d0e-4369-a464-daa770d125eb" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="1.2.36.1.2001.1007.11.8003640002000019.1000000076906277">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.uniqueId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+		</ns6:ExtrinsicObject>
+		<ns6:ExtrinsicObject id="urn:uuid:1ee6a8db-0af3-4ec2-8cd7-096d40bcb51e" isOpaque="false" lid="urn:uuid:1ee6a8db-0af3-4ec2-8cd7-096d40bcb51e"
+			mimeType="application/zip" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved">
+			<ns6:Slot name="creationTime">
+				<ns6:ValueList>
+					<ns6:Value>201406190000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="languageCode">
+				<ns6:ValueList>
+					<ns6:Value>en-AU</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStartTime">
+				<ns6:ValueList>
+					<ns6:Value>201406190000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStopTime">
+				<ns6:ValueList>
+					<ns6:Value>201406190000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="sourcePatientId">
+				<ns6:ValueList>
+					<ns6:Value>8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="hash">
+				<ns6:ValueList>
+					<ns6:Value>da39a3ee5e6b4b0d3255bfef95601890afd80709</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="size">
+				<ns6:ValueList>
+					<ns6:Value>0</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="repositoryUniqueId">
+				<ns6:ValueList>
+					<ns6:Value>1.2.36.1.2001.1007.10.8003640002000043</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Name>
+				<ns6:LocalizedString charset="UTF-8" value="Medicare/DVA Benefits Report" xml:lang="en-us" />
+			</ns6:Name>
+			<ns6:Description>
+				<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+			</ns6:Description>
+			<ns6:VersionInfo versionName="1" />
+			<ns6:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:1ee6a8db-0af3-4ec2-8cd7-096d40bcb51e"
+				id="urn:uuid:8fe47e93-f767-4df2-a2d6-4c12db06b2ac" lid="urn:uuid:8fe47e93-f767-4df2-a2d6-4c12db06b2ac" nodeRepresentation=""
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="authorPerson">
+					<ns6:ValueList>
+						<ns6:Value>^^DHS^^^^&amp;1.2.36.1.2001.1007.20.8003640003000018&amp;ISO</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Slot name="authorInstitution">
+					<ns6:ValueList>
+						<ns6:Value>DHS Medicare^^^^^^^^^1.2.36.1.2001.1007.1.8003640001000010</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:1ee6a8db-0af3-4ec2-8cd7-096d40bcb51e"
+				id="urn:uuid:7448579b-a343-42fd-a5ea-ca19608a6990" lid="urn:uuid:7448579b-a343-42fd-a5ea-ca19608a6990" nodeRepresentation="100.16644"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:1ee6a8db-0af3-4ec2-8cd7-096d40bcb51e"
+				id="urn:uuid:546e1438-ecf9-46e7-bbcb-d43c25039eed" lid="urn:uuid:546e1438-ecf9-46e7-bbcb-d43c25039eed" nodeRepresentation="GENERAL"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_DocAccessLevels</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="General Access" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:1ee6a8db-0af3-4ec2-8cd7-096d40bcb51e"
+				id="urn:uuid:ec912a35-1cdf-4ea6-98ab-a528e0ac1210" lid="urn:uuid:ec912a35-1cdf-4ea6-98ab-a528e0ac1210" nodeRepresentation="1.2.36.1.2001.1006.1.16644.6"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_FormatCodes</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:1ee6a8db-0af3-4ec2-8cd7-096d40bcb51e"
+				id="urn:uuid:dcf48a4a-99a8-4148-9f58-59b1839a5b40" lid="urn:uuid:dcf48a4a-99a8-4148-9f58-59b1839a5b40" nodeRepresentation="8401"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:1ee6a8db-0af3-4ec2-8cd7-096d40bcb51e"
+				id="urn:uuid:91ec6c28-4cfe-4a5a-b6d5-5b700f141974" lid="urn:uuid:91ec6c28-4cfe-4a5a-b6d5-5b700f141974" nodeRepresentation="8401-6"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:1ee6a8db-0af3-4ec2-8cd7-096d40bcb51e"
+				id="urn:uuid:e933fa23-466f-4bcf-a030-73278ad15090" lid="urn:uuid:e933fa23-466f-4bcf-a030-73278ad15090" nodeRepresentation="100.16644"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:ExternalIdentifier id="urn:uuid:04a95fa0-d588-47da-85a9-592b28cab957" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"
+				lid="urn:uuid:04a95fa0-d588-47da-85a9-592b28cab957" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:1ee6a8db-0af3-4ec2-8cd7-096d40bcb51e" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.patientId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+			<ns6:ExternalIdentifier id="urn:uuid:c659de47-cbda-4aa2-a5f0-d1016dcfbbf2" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"
+				lid="urn:uuid:c659de47-cbda-4aa2-a5f0-d1016dcfbbf2" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:1ee6a8db-0af3-4ec2-8cd7-096d40bcb51e" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="1.2.36.1.2001.1007.11.8003640002000043.1000000124081930">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.uniqueId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+		</ns6:ExtrinsicObject>
+		<ns6:ExtrinsicObject id="urn:uuid:16a8a126-48a0-46c7-89e5-850127414c4c" isOpaque="false" lid="urn:uuid:16a8a126-48a0-46c7-89e5-850127414c4c"
+			mimeType="application/zip" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved">
+			<ns6:Slot name="creationTime">
+				<ns6:ValueList>
+					<ns6:Value>201406190000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="languageCode">
+				<ns6:ValueList>
+					<ns6:Value>en-AU</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStartTime">
+				<ns6:ValueList>
+					<ns6:Value>201406190000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStopTime">
+				<ns6:ValueList>
+					<ns6:Value>201406190000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="sourcePatientId">
+				<ns6:ValueList>
+					<ns6:Value>8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="hash">
+				<ns6:ValueList>
+					<ns6:Value>da39a3ee5e6b4b0d3255bfef95601890afd80709</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="size">
+				<ns6:ValueList>
+					<ns6:Value>0</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="repositoryUniqueId">
+				<ns6:ValueList>
+					<ns6:Value>1.2.36.1.2001.1007.10.8003640002000043</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Name>
+				<ns6:LocalizedString charset="UTF-8" value="Medicare/DVA Benefits Report" xml:lang="en-us" />
+			</ns6:Name>
+			<ns6:Description>
+				<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+			</ns6:Description>
+			<ns6:VersionInfo versionName="1" />
+			<ns6:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:16a8a126-48a0-46c7-89e5-850127414c4c"
+				id="urn:uuid:dee09375-c027-4629-8349-4632951ace9c" lid="urn:uuid:dee09375-c027-4629-8349-4632951ace9c" nodeRepresentation=""
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="authorPerson">
+					<ns6:ValueList>
+						<ns6:Value>^^DHS^^^^&amp;1.2.36.1.2001.1007.20.8003640003000018&amp;ISO</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Slot name="authorInstitution">
+					<ns6:ValueList>
+						<ns6:Value>DHS Medicare^^^^^^^^^1.2.36.1.2001.1007.1.8003640001000010</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:16a8a126-48a0-46c7-89e5-850127414c4c"
+				id="urn:uuid:daf0d8ab-4310-4a64-aa98-73886066dc32" lid="urn:uuid:daf0d8ab-4310-4a64-aa98-73886066dc32" nodeRepresentation="100.16644"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:16a8a126-48a0-46c7-89e5-850127414c4c"
+				id="urn:uuid:093dcbc8-1a60-4552-a7c3-58852554ea19" lid="urn:uuid:093dcbc8-1a60-4552-a7c3-58852554ea19" nodeRepresentation="GENERAL"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_DocAccessLevels</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="General Access" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:16a8a126-48a0-46c7-89e5-850127414c4c"
+				id="urn:uuid:d5458190-4238-4bbc-b18b-29b451e3e372" lid="urn:uuid:d5458190-4238-4bbc-b18b-29b451e3e372" nodeRepresentation="1.2.36.1.2001.1006.1.16644.6"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_FormatCodes</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:16a8a126-48a0-46c7-89e5-850127414c4c"
+				id="urn:uuid:ce39d121-a00c-4b1d-8372-b4a44d3e2cf4" lid="urn:uuid:ce39d121-a00c-4b1d-8372-b4a44d3e2cf4" nodeRepresentation="8401"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:16a8a126-48a0-46c7-89e5-850127414c4c"
+				id="urn:uuid:f4ac392b-072b-43fe-91d1-fb379eec30c6" lid="urn:uuid:f4ac392b-072b-43fe-91d1-fb379eec30c6" nodeRepresentation="8401-6"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:16a8a126-48a0-46c7-89e5-850127414c4c"
+				id="urn:uuid:8968ee15-e0b4-4d11-b0e2-059276315f90" lid="urn:uuid:8968ee15-e0b4-4d11-b0e2-059276315f90" nodeRepresentation="100.16644"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:ExternalIdentifier id="urn:uuid:bd13b0d2-f692-4684-a039-5ef774e38e86" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"
+				lid="urn:uuid:bd13b0d2-f692-4684-a039-5ef774e38e86" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:16a8a126-48a0-46c7-89e5-850127414c4c" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.patientId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+			<ns6:ExternalIdentifier id="urn:uuid:c5d78f81-1bc1-4d19-ab93-5b9a8b927c03" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"
+				lid="urn:uuid:c5d78f81-1bc1-4d19-ab93-5b9a8b927c03" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:16a8a126-48a0-46c7-89e5-850127414c4c" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="1.2.36.1.2001.1007.11.8003640002000043.1000000124081928">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.uniqueId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+		</ns6:ExtrinsicObject>
+		<ns6:ExtrinsicObject id="urn:uuid:54105f02-5ca1-4130-af7c-c3bc44275c71" isOpaque="false" lid="urn:uuid:54105f02-5ca1-4130-af7c-c3bc44275c71"
+			mimeType="application/zip" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved">
+			<ns6:Slot name="creationTime">
+				<ns6:ValueList>
+					<ns6:Value>201407240000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="languageCode">
+				<ns6:ValueList>
+					<ns6:Value>en-AU</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStartTime">
+				<ns6:ValueList>
+					<ns6:Value>201407240000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStopTime">
+				<ns6:ValueList>
+					<ns6:Value>201407240000</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="sourcePatientId">
+				<ns6:ValueList>
+					<ns6:Value>8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="hash">
+				<ns6:ValueList>
+					<ns6:Value>da39a3ee5e6b4b0d3255bfef95601890afd80709</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="size">
+				<ns6:ValueList>
+					<ns6:Value>0</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="repositoryUniqueId">
+				<ns6:ValueList>
+					<ns6:Value>1.2.36.1.2001.1007.10.8003640002000043</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Name>
+				<ns6:LocalizedString charset="UTF-8" value="Medicare/DVA Benefits Report" xml:lang="en-us" />
+			</ns6:Name>
+			<ns6:Description>
+				<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+			</ns6:Description>
+			<ns6:VersionInfo versionName="1" />
+			<ns6:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:54105f02-5ca1-4130-af7c-c3bc44275c71"
+				id="urn:uuid:a9365f4f-0628-494d-82bc-eb81961551ab" lid="urn:uuid:a9365f4f-0628-494d-82bc-eb81961551ab" nodeRepresentation=""
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="authorPerson">
+					<ns6:ValueList>
+						<ns6:Value>^^DHS^^^^&amp;1.2.36.1.2001.1007.20.8003640003000018&amp;ISO</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Slot name="authorInstitution">
+					<ns6:ValueList>
+						<ns6:Value>DHS Medicare^^^^^^^^^1.2.36.1.2001.1007.1.8003640001000010</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:54105f02-5ca1-4130-af7c-c3bc44275c71"
+				id="urn:uuid:51f283c4-faa7-4883-a50f-5ddc6655f9b6" lid="urn:uuid:51f283c4-faa7-4883-a50f-5ddc6655f9b6" nodeRepresentation="100.16644"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:54105f02-5ca1-4130-af7c-c3bc44275c71"
+				id="urn:uuid:bd46df86-795e-4fe9-9168-3d4c69d7d308" lid="urn:uuid:bd46df86-795e-4fe9-9168-3d4c69d7d308" nodeRepresentation="GENERAL"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_DocAccessLevels</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="General Access" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:54105f02-5ca1-4130-af7c-c3bc44275c71"
+				id="urn:uuid:6fb17914-1af6-48a1-a499-3f36ffaecc06" lid="urn:uuid:6fb17914-1af6-48a1-a499-3f36ffaecc06" nodeRepresentation="1.2.36.1.2001.1006.1.16644.6"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_FormatCodes</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:54105f02-5ca1-4130-af7c-c3bc44275c71"
+				id="urn:uuid:d1f8e744-f294-4a27-9afd-2cd55f8cd5fc" lid="urn:uuid:d1f8e744-f294-4a27-9afd-2cd55f8cd5fc" nodeRepresentation="8401"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:54105f02-5ca1-4130-af7c-c3bc44275c71"
+				id="urn:uuid:a7ed9103-3891-492e-875a-127b74095fee" lid="urn:uuid:a7ed9103-3891-492e-875a-127b74095fee" nodeRepresentation="8401-6"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:54105f02-5ca1-4130-af7c-c3bc44275c71"
+				id="urn:uuid:634cdd3d-cca0-4fe0-8332-fad1a565448c" lid="urn:uuid:634cdd3d-cca0-4fe0-8332-fad1a565448c" nodeRepresentation="100.16644"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Medicare/DVA Benefits Report" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:ExternalIdentifier id="urn:uuid:1170c19d-8788-4846-aeea-2ff48c5df11e" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"
+				lid="urn:uuid:1170c19d-8788-4846-aeea-2ff48c5df11e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:54105f02-5ca1-4130-af7c-c3bc44275c71" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.patientId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+			<ns6:ExternalIdentifier id="urn:uuid:9e5f152d-59cf-46f7-b47d-0717f32b8e7a" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"
+				lid="urn:uuid:9e5f152d-59cf-46f7-b47d-0717f32b8e7a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:54105f02-5ca1-4130-af7c-c3bc44275c71" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="1.2.36.1.2001.1007.11.8003640002000043.1000000124081929">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.uniqueId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+		</ns6:ExtrinsicObject>
+		<ns6:ExtrinsicObject id="urn:uuid:e959e555-df84-4e04-8d60-7f56afb6957d" isOpaque="false" lid="urn:uuid:e959e555-df84-4e04-8d60-7f56afb6957d"
+			mimeType="application/zip" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved">
+			<ns6:Slot name="creationTime">
+				<ns6:ValueList>
+					<ns6:Value>201504090239</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="languageCode">
+				<ns6:ValueList>
+					<ns6:Value>en-AU</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStartTime">
+				<ns6:ValueList>
+					<ns6:Value>201504090239</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStopTime">
+				<ns6:ValueList>
+					<ns6:Value>201504081400</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="sourcePatientId">
+				<ns6:ValueList>
+					<ns6:Value>8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="hash">
+				<ns6:ValueList>
+					<ns6:Value>d7bc1ffab3bc0176d6728db3f900016f5d6f92a4</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="size">
+				<ns6:ValueList>
+					<ns6:Value>3932</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="repositoryUniqueId">
+				<ns6:ValueList>
+					<ns6:Value>1.2.36.1.2001.1007.10.8003640002000050</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Name>
+				<ns6:LocalizedString charset="UTF-8" value="Estoy bien" xml:lang="en-us" />
+			</ns6:Name>
+			<ns6:Description>
+				<ns6:LocalizedString value="Personal Health Note" />
+			</ns6:Description>
+			<ns6:VersionInfo versionName="1" />
+			<ns6:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:e959e555-df84-4e04-8d60-7f56afb6957d"
+				id="urn:uuid:1d8fc11a-59d0-4716-b8e9-b439f409369f" lid="urn:uuid:1d8fc11a-59d0-4716-b8e9-b439f409369f" nodeRepresentation=""
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="authorPerson">
+					<ns6:ValueList>
+						<ns6:Value>^MIDDLETON^JORGE^^^MR^^^^&amp;1.2.36.1.2001.1003.0.8003603460392146&amp;ISO</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Slot name="authorInstitution">
+					<ns6:ValueList>
+						<ns6:Value>National Consumer Portal^^^^^^^^^1.2.36.1.2001.1007.1.8003640000000029</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:e959e555-df84-4e04-8d60-7f56afb6957d"
+				id="urn:uuid:67963b5f-f87f-43eb-91a7-5bd36866145c" lid="urn:uuid:67963b5f-f87f-43eb-91a7-5bd36866145c" nodeRepresentation="100.16681"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS Data Components</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Personal Health Note" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:e959e555-df84-4e04-8d60-7f56afb6957d"
+				id="urn:uuid:6ba3b5f8-f922-4ca8-8aaa-406f9ccef9d0" lid="urn:uuid:6ba3b5f8-f922-4ca8-8aaa-406f9ccef9d0" nodeRepresentation="GENERAL"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_DocAccessLevels</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="General Access" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:e959e555-df84-4e04-8d60-7f56afb6957d"
+				id="urn:uuid:cc377a1f-6653-460e-ad1c-2673ad287fc6" lid="urn:uuid:cc377a1f-6653-460e-ad1c-2673ad287fc6" nodeRepresentation="1.2.36.1.2001.1006.1.16681.2"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_FormatCodes</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Personal Health Note" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:e959e555-df84-4e04-8d60-7f56afb6957d"
+				id="urn:uuid:0e956f59-489f-49c6-86eb-865a01163f26" lid="urn:uuid:0e956f59-489f-49c6-86eb-865a01163f26" nodeRepresentation="7562"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:e959e555-df84-4e04-8d60-7f56afb6957d"
+				id="urn:uuid:2754be81-309d-45c4-8a48-6b7a8000ebc2" lid="urn:uuid:2754be81-309d-45c4-8a48-6b7a8000ebc2" nodeRepresentation="7562-1"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:e959e555-df84-4e04-8d60-7f56afb6957d"
+				id="urn:uuid:3df6d818-7195-4900-945c-9ca87f6bd63e" lid="urn:uuid:3df6d818-7195-4900-945c-9ca87f6bd63e" nodeRepresentation="100.16681"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS Data Components</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Personal Health Note" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:ExternalIdentifier id="urn:uuid:2954b2ed-b1ce-4503-ad80-be43fa86f03e" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"
+				lid="urn:uuid:2954b2ed-b1ce-4503-ad80-be43fa86f03e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:e959e555-df84-4e04-8d60-7f56afb6957d" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.patientId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+			<ns6:ExternalIdentifier id="urn:uuid:ba68c38e-fcf2-42ea-8e2d-b61e253e8aea" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"
+				lid="urn:uuid:ba68c38e-fcf2-42ea-8e2d-b61e253e8aea" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:e959e555-df84-4e04-8d60-7f56afb6957d" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="2.25.158818076197594049645503748986374422051">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.uniqueId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+		</ns6:ExtrinsicObject>
+		<ns6:ExtrinsicObject id="urn:uuid:c360cabd-3609-47d2-9e24-78de7e8263ce" isOpaque="false" lid="urn:uuid:c360cabd-3609-47d2-9e24-78de7e8263ce"
+			mimeType="application/zip" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved">
+			<ns6:Slot name="creationTime">
+				<ns6:ValueList>
+					<ns6:Value>201504090755</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="languageCode">
+				<ns6:ValueList>
+					<ns6:Value>en-AU</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStartTime">
+				<ns6:ValueList>
+					<ns6:Value>201504090755</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStopTime">
+				<ns6:ValueList>
+					<ns6:Value>201504090755</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="sourcePatientId">
+				<ns6:ValueList>
+					<ns6:Value>8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="hash">
+				<ns6:ValueList>
+					<ns6:Value>fcbd6855897b600ba730885d9502372c3676a152</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="size">
+				<ns6:ValueList>
+					<ns6:Value>4803</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="repositoryUniqueId">
+				<ns6:ValueList>
+					<ns6:Value>1.2.36.1.2001.1007.10.8003640002000050</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Name>
+				<ns6:LocalizedString charset="UTF-8" value="Personal Health Observation" xml:lang="en-us" />
+			</ns6:Name>
+			<ns6:Description>
+				<ns6:LocalizedString value="Personal Health Observation" />
+			</ns6:Description>
+			<ns6:VersionInfo versionName="1" />
+			<ns6:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:c360cabd-3609-47d2-9e24-78de7e8263ce"
+				id="urn:uuid:e9b4fe89-806e-4716-9e41-35d58b7bf44f" lid="urn:uuid:e9b4fe89-806e-4716-9e41-35d58b7bf44f" nodeRepresentation=""
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="authorPerson">
+					<ns6:ValueList>
+						<ns6:Value>^MIDDLETON^JORGE^^^MR^^^^&amp;1.2.36.1.2001.1003.0.8003603460392146&amp;ISO</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Slot name="authorInstitution">
+					<ns6:ValueList>
+						<ns6:Value>National Consumer Portal^^^^^^^^^1.2.36.1.2001.1007.1.8003640000000029</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:c360cabd-3609-47d2-9e24-78de7e8263ce"
+				id="urn:uuid:35c9dba8-7b1f-4abe-8068-06403440a4af" lid="urn:uuid:35c9dba8-7b1f-4abe-8068-06403440a4af" nodeRepresentation="100.16870"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS Data Components</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Consumer Entered Measurements" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:c360cabd-3609-47d2-9e24-78de7e8263ce"
+				id="urn:uuid:612d3a00-af51-4a50-985a-338c09e148bb" lid="urn:uuid:612d3a00-af51-4a50-985a-338c09e148bb" nodeRepresentation="GENERAL"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_DocAccessLevels</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="General Access" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:c360cabd-3609-47d2-9e24-78de7e8263ce"
+				id="urn:uuid:6e84e836-a7a5-4780-9d6d-37543223e5ec" lid="urn:uuid:6e84e836-a7a5-4780-9d6d-37543223e5ec" nodeRepresentation="1.2.36.1.2001.1006.1.208.1"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_FormatCodes</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Consumer Entered Measurements" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:c360cabd-3609-47d2-9e24-78de7e8263ce"
+				id="urn:uuid:78f9a301-a0cf-48a5-a647-c953a7dc5e37" lid="urn:uuid:78f9a301-a0cf-48a5-a647-c953a7dc5e37" nodeRepresentation="7562"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:c360cabd-3609-47d2-9e24-78de7e8263ce"
+				id="urn:uuid:4fed61b1-41bb-434d-ad5f-f238125233ee" lid="urn:uuid:4fed61b1-41bb-434d-ad5f-f238125233ee" nodeRepresentation="7562-1"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:c360cabd-3609-47d2-9e24-78de7e8263ce"
+				id="urn:uuid:43c942eb-2030-4468-a3b1-15fee80522af" lid="urn:uuid:43c942eb-2030-4468-a3b1-15fee80522af" nodeRepresentation="100.16870"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS Data Components</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Personal Health Observation" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:ExternalIdentifier id="urn:uuid:90e74291-3d40-4b59-a8b9-bcf2bbc246d7" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"
+				lid="urn:uuid:90e74291-3d40-4b59-a8b9-bcf2bbc246d7" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:c360cabd-3609-47d2-9e24-78de7e8263ce" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.patientId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+			<ns6:ExternalIdentifier id="urn:uuid:9fa83cdd-78a9-441b-aab5-4c55eade49a4" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"
+				lid="urn:uuid:9fa83cdd-78a9-441b-aab5-4c55eade49a4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:c360cabd-3609-47d2-9e24-78de7e8263ce" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="2.25.174155114488427668473496927198658810738">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.uniqueId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+		</ns6:ExtrinsicObject>
+		<ns6:ExtrinsicObject id="urn:uuid:4ebb28b0-5896-44ab-945f-53edbc8d91a0" isOpaque="false" lid="urn:uuid:4ebb28b0-5896-44ab-945f-53edbc8d91a0"
+			mimeType="application/zip" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved">
+			<ns6:Slot name="creationTime">
+				<ns6:ValueList>
+					<ns6:Value>201504091256</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="languageCode">
+				<ns6:ValueList>
+					<ns6:Value>en-AU</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStartTime">
+				<ns6:ValueList>
+					<ns6:Value>201504091256</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="serviceStopTime">
+				<ns6:ValueList>
+					<ns6:Value>201504091256</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="sourcePatientId">
+				<ns6:ValueList>
+					<ns6:Value>8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="hash">
+				<ns6:ValueList>
+					<ns6:Value>8c6f889bc9ab7341d5419d5365c9c94587cf8aaa</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="size">
+				<ns6:ValueList>
+					<ns6:Value>4538</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Slot name="repositoryUniqueId">
+				<ns6:ValueList>
+					<ns6:Value>1.2.36.1.2001.1007.10.8003640002000050</ns6:Value>
+				</ns6:ValueList>
+			</ns6:Slot>
+			<ns6:Name>
+				<ns6:LocalizedString charset="UTF-8" value="Personal Health Summary" xml:lang="en-us" />
+			</ns6:Name>
+			<ns6:Description>
+				<ns6:LocalizedString value="Personal Health Summary" />
+			</ns6:Description>
+			<ns6:VersionInfo versionName="1" />
+			<ns6:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:4ebb28b0-5896-44ab-945f-53edbc8d91a0"
+				id="urn:uuid:4ca338fc-8c07-4d06-a5c2-3eacff046846" lid="urn:uuid:4ca338fc-8c07-4d06-a5c2-3eacff046846" nodeRepresentation=""
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="authorPerson">
+					<ns6:ValueList>
+						<ns6:Value>^MIDDLETON^JORGE^^^MR^^^^&amp;1.2.36.1.2001.1003.0.8003603460392146&amp;ISO</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Slot name="authorInstitution">
+					<ns6:ValueList>
+						<ns6:Value>National Consumer Portal^^^^^^^^^1.2.36.1.2001.1007.1.8003640000000029</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:4ebb28b0-5896-44ab-945f-53edbc8d91a0"
+				id="urn:uuid:92bfcd63-cab4-40e9-9061-722c23f7ed72" lid="urn:uuid:92bfcd63-cab4-40e9-9061-722c23f7ed72" nodeRepresentation="100.16685"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS Data Components</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Personal Health Summary" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:4ebb28b0-5896-44ab-945f-53edbc8d91a0"
+				id="urn:uuid:780db308-0d6a-4339-9af4-de311b276ed6" lid="urn:uuid:780db308-0d6a-4339-9af4-de311b276ed6" nodeRepresentation="GENERAL"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_DocAccessLevels</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="General Access" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:4ebb28b0-5896-44ab-945f-53edbc8d91a0"
+				id="urn:uuid:0f6fda46-4a83-44a9-882d-e9d34773bc23" lid="urn:uuid:0f6fda46-4a83-44a9-882d-e9d34773bc23" nodeRepresentation="1.2.36.1.2001.1006.1.16685.2"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>PCEHR_FormatCodes</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Personal Health Summary" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:4ebb28b0-5896-44ab-945f-53edbc8d91a0"
+				id="urn:uuid:df7cb9f0-671f-4b6a-a045-bd911363f037" lid="urn:uuid:df7cb9f0-671f-4b6a-a045-bd911363f037" nodeRepresentation="7562"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:4ebb28b0-5896-44ab-945f-53edbc8d91a0"
+				id="urn:uuid:2167ef95-18d9-4dfd-b42b-713c9e3fa8fa" lid="urn:uuid:2167ef95-18d9-4dfd-b42b-713c9e3fa8fa" nodeRepresentation="7562-1"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>ANZSIC</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Provision and administration of public health program" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:4ebb28b0-5896-44ab-945f-53edbc8d91a0"
+				id="urn:uuid:219e5bf9-9786-4dcd-a96f-726a30625e7d" lid="urn:uuid:219e5bf9-9786-4dcd-a96f-726a30625e7d" nodeRepresentation="100.16685"
+				objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+				<ns6:Slot name="codingScheme">
+					<ns6:ValueList>
+						<ns6:Value>NCTIS Data Components</ns6:Value>
+					</ns6:ValueList>
+				</ns6:Slot>
+				<ns6:Name>
+					<ns6:LocalizedString value="Personal Health Summary" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:Classification>
+			<ns6:ExternalIdentifier id="urn:uuid:a7c43437-52df-4de8-bdc5-8c7c9f19ae73" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"
+				lid="urn:uuid:a7c43437-52df-4de8-bdc5-8c7c9f19ae73" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:4ebb28b0-5896-44ab-945f-53edbc8d91a0" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="8003603460392146^^^&amp;1.2.36.1.2001.1003.0&amp;ISO">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.patientId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+			<ns6:ExternalIdentifier id="urn:uuid:543c6e6a-b204-4789-b9eb-194cbdeedbaf" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"
+				lid="urn:uuid:543c6e6a-b204-4789-b9eb-194cbdeedbaf" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier"
+				registryObject="urn:uuid:4ebb28b0-5896-44ab-945f-53edbc8d91a0" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted" value="2.25.313862032022872013966737127168786706520">
+				<ns6:Name>
+					<ns6:LocalizedString value="XDSDocumentEntry.uniqueId" />
+				</ns6:Name>
+				<ns6:VersionInfo versionName="1" />
+			</ns6:ExternalIdentifier>
+		</ns6:ExtrinsicObject>
+	</ns6:RegistryObjectList>
+</ns8:AdhocQueryResponse>

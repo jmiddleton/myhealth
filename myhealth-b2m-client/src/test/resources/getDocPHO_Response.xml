@@ -1,0 +1,250 @@
+
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0">
+	<typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3" />
+	<templateId extension="1.1" root="1.2.36.1.2001.1001.100.1002.208" />
+	<templateId extension="1.0" root="1.2.36.1.2001.1001.100.149" />
+	<id root="2.25.174155114488427668473496927198658810738" />
+	<code code="100.16870" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Consumer Entered Measurements" />
+	<title>Consumer Entered Measurements</title>
+	<effectiveTime value="201504091755+1000" />
+	<confidentialityCode nullFlavor="NA" />
+	<languageCode code="en-AU" />
+	<ns2:completionCode code="F" codeSystem="1.2.36.1.2001.1001.101.104.20104" codeSystemName="NCTIS Document Status Values"
+		displayName="Final" />
+	<recordTarget>
+		<patientRole>
+			<id root="d3eea45b-d78b-4245-a07e-b0871fcccef9" />
+			<addr nullFlavor="UNK" />
+			<patient>
+				<name use="L">
+					<prefix>MR</prefix>
+					<given>JORGE LUIS</given>
+					<family>MIDDLETON</family>
+				</name>
+				<administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.13.68" codeSystemName="AS 5017-2006 Health Care Client Identifier Sex"
+					displayName="Male" />
+				<birthTime value="19760329" />
+				<ns2:asEntityIdentifier classCode="IDENT">
+					<ns2:id assigningAuthorityName="IHI" root="1.2.36.1.2001.1003.0.8003603460392146" />
+					<ns2:assigningGeographicArea classCode="PLC">
+						<ns2:name>National Identifier</ns2:name>
+					</ns2:assigningGeographicArea>
+				</ns2:asEntityIdentifier>
+			</patient>
+		</patientRole>
+	</recordTarget>
+	<author>
+		<time value="201504091755+1000" />
+		<assignedAuthor>
+			<id root="bc06d682-0745-4c85-8648-46ad31401226" />
+			<code nullFlavor="NA" />
+			<assignedPerson>
+				<name use="L">
+					<prefix>MR</prefix>
+					<given>JORGE</given>
+					<family>MIDDLETON</family>
+				</name>
+				<ns2:asEntityIdentifier classCode="IDENT">
+					<ns2:id assigningAuthorityName="IHI" root="1.2.36.1.2001.1003.0.8003603460392146" />
+				</ns2:asEntityIdentifier>
+			</assignedPerson>
+		</assignedAuthor>
+	</author>
+	<custodian>
+		<assignedCustodian>
+			<representedCustodianOrganization>
+				<id root="aac86974-d33b-4a9e-875f-f2fecaed28b0" />
+				<name>National Consumer Portal</name>
+				<ns2:asEntityIdentifier classCode="IDENT">
+					<ns2:id root="1.2.36.1.2001.1007.1.8003640000000029" />
+				</ns2:asEntityIdentifier>
+			</representedCustodianOrganization>
+		</assignedCustodian>
+	</custodian>
+	<component>
+		<structuredBody>
+			<component>
+				<section>
+					<code code="102.16080" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Administrative Observations" />
+					<title>Administrative Observations</title>
+					<text>
+						<paragraph>No administrative observations.</paragraph>
+					</text>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId root="1.2.36.1.2001.1001.101.101.16491" />
+					<code code="101.16491" codeSystem="1.2.36.1.2001.1001.101" codeSystemName="NCTIS Data Components" displayName="Physical Measurements" />
+					<title>Physical Measurements</title>
+					<text>
+						<table>
+							<thead>
+								<tr>
+									<th>Observation Date</th>
+									<th>Head Circumference</th>
+									<th>Body Height</th>
+									<th>Body Weight</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>09-Apr-1981</td>
+									<td>40.0 cm</td>
+									<td>100.0 cm</td>
+									<td>25.000 kg</td>
+								</tr>
+								<tr>
+									<td>09-Apr-1980</td>
+									<td>40.0 cm</td>
+									<td>100.0 cm</td>
+									<td>23.000 kg</td>
+								</tr>
+								<tr>
+									<td>09-Apr-1982</td>
+									<td>41.0 cm</td>
+									<td>120.0 cm</td>
+									<td>24.000 kg</td>
+								</tr>
+								<tr>
+									<td>09-Apr-1983</td>
+									<td>42.0 cm</td>
+									<td>130.0 cm</td>
+									<td>25.000 kg</td>
+								</tr>
+							</tbody>
+						</table>
+					</text>
+					<entry typeCode="DRIV">
+						<organizer classCode="CLUSTER" moodCode="EVN">
+							<id root="d5144ecb-307d-4da0-a4f0-1818cb7daebe" />
+							<code code="1" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" displayName="Consumer Entered Measurement Information" />
+							<statusCode code="completed" />
+							<effectiveTime value="198104090000+1000" />
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16808" />
+									<id root="5fbacca9-3614-4d13-94b4-c19b3bc809e3" />
+									<code code="363812007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Head circumference" />
+									<value unit="cm" value="40.0" xsi:type="PQ" />
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16123" />
+									<id root="3a6cb4b6-c4b2-4bba-8298-a05e9f16de6e" />
+									<code code="50373000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Body height measure" />
+									<value unit="cm" value="100.0" xsi:type="PQ" />
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16124" />
+									<id root="37e08bd4-8ed0-4280-b761-e61690b84a44" />
+									<code code="27113001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Body weight" />
+									<value unit="kg" value="25.000" xsi:type="PQ" />
+								</observation>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="CLUSTER" moodCode="EVN">
+							<id root="9fa4fcac-2082-423b-958a-395ffd308ca6" />
+							<code code="1" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" displayName="Consumer Entered Measurement Information" />
+							<statusCode code="completed" />
+							<effectiveTime value="198004090000+1000" />
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16808" />
+									<id root="a1b7bc64-e8d2-47e0-bcb9-c912c5b9ad21" />
+									<code code="363812007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Head circumference" />
+									<value unit="cm" value="40.0" xsi:type="PQ" />
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16123" />
+									<id root="806aa2c3-1a0a-4ddb-b124-11f84d6c3e07" />
+									<code code="50373000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Body height measure" />
+									<value unit="cm" value="100.0" xsi:type="PQ" />
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16124" />
+									<id root="bf90c20e-9554-427b-8af5-33774e062d6d" />
+									<code code="27113001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Body weight" />
+									<value unit="kg" value="23.000" xsi:type="PQ" />
+								</observation>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="CLUSTER" moodCode="EVN">
+							<id root="15ceb2a0-d6a4-417f-b1b8-5f4f53d6b387" />
+							<code code="1" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" displayName="Consumer Entered Measurement Information" />
+							<statusCode code="completed" />
+							<effectiveTime value="198204090000+1000" />
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16808" />
+									<id root="e88817b0-dd66-4db2-b932-4cfc617a6242" />
+									<code code="363812007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Head circumference" />
+									<value unit="cm" value="41.0" xsi:type="PQ" />
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16123" />
+									<id root="e8861135-44b5-4ba2-a5e3-447994197409" />
+									<code code="50373000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Body height measure" />
+									<value unit="cm" value="120.0" xsi:type="PQ" />
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16124" />
+									<id root="d3831744-acdf-42c6-8d31-4cedb0f78a74" />
+									<code code="27113001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Body weight" />
+									<value unit="kg" value="24.000" xsi:type="PQ" />
+								</observation>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="CLUSTER" moodCode="EVN">
+							<id root="8ae90ad6-80ef-46a5-b4c0-733c6fc78e54" />
+							<code code="1" codeSystem="1.2.36.1.2001.1005.45" codeSystemName="PCEHR Custom Data Component" displayName="Consumer Entered Measurement Information" />
+							<statusCode code="completed" />
+							<effectiveTime value="198304090000+1000" />
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16808" />
+									<id root="fa584fc6-4714-431b-9d97-be9f3ba156d2" />
+									<code code="363812007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Head circumference" />
+									<value unit="cm" value="42.0" xsi:type="PQ" />
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16123" />
+									<id root="d319b028-1541-4342-a54a-733e12c1c323" />
+									<code code="50373000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Body height measure" />
+									<value unit="cm" value="130.0" xsi:type="PQ" />
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="1.2.36.1.2001.1001.101.102.16124" />
+									<id root="ab9ea0f9-f1a0-4116-9d96-0575c9982ee1" />
+									<code code="27113001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Body weight" />
+									<value unit="kg" value="25.000" xsi:type="PQ" />
+								</observation>
+							</component>
+						</organizer>
+					</entry>
+				</section>
+			</component>
+		</structuredBody>
+	</component>
+</ClinicalDocument>

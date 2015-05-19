@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:getViewResponse
+	xmlns:ns="http://ns.electronichealth.net.au/pcehr/xsd/interfaces/GetView/1.0"
+	xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+	<ns:responseStatus>
+		<ns1:code
+			xmlns:ns1="http://ns.electronichealth.net.au/pcehr/xsd/common/CommonCoreElements/1.0">PCEHR_SUCCESS</ns1:code>
+		<ns1:description
+			xmlns:ns1="http://ns.electronichealth.net.au/pcehr/xsd/common/CommonCoreElements/1.0">SUCCESS</ns1:description>
+	</ns:responseStatus>
+	<ns:view>
+		<ns:templateID>1.2.36.1.2001.1006.1.172.1</ns:templateID>
+		<ns:data>
+			<ns4:ClinicalDocument xmlns:ns4="urn:hl7-org:v3"
+				xmlns:ns6="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:ns5="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0"
+				xmlns:ns8="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0" xmlns:ns7="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0"
+				xmlns:ns13="http://view.htb.ws.pcehr.au/" xmlns:ns12="http://di.view.htb.ws.pcehr.au/"
+				xmlns:ns9="http://common.htb.ws.pcehr.au/" xmlns:ns11="http://path.view.htb.ws.pcehr.au/"
+				xmlns:ns10="http://common.view.htb.ws.pcehr.au/" xmlns:ns14="http://hro.view.htb.ws.pcehr.au/"
+				xmlns:ns3="http://common.pna.ws.pcehr.au/">
+				<ns4:typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3" />
+				<ns4:templateId extension="1.1"
+					root="1.2.36.1.2001.1001.100.1002.172" />
+				<ns4:templateId extension="1.0"
+					root="1.2.36.1.2001.1001.100.149" />
+				<ns4:id root="2.25.132880287942407406877105276673239942046" />
+				<ns4:code code="100.16767" codeSystem="1.2.36.1.2001.1001.101"
+					codeSystemName="NCTIS Data Components" displayName="Medicare Overview" />
+				<ns4:title>Medicare Overview - From: 08-Apr-2013 to 08-Apr-2015
+				</ns4:title>
+				<ns4:effectiveTime value="20150408213314+1000" />
+				<ns4:confidentialityCode nullFlavor="NA" />
+				<ns4:languageCode code="en-AU" />
+				<ns5:completionCode code="F"
+					codeSystem="1.2.36.1.2001.1001.101.104.20104" codeSystemName="NCTIS Document Status Values"
+					displayName="Final" />
+				<ns4:recordTarget typeCode="RCT">
+					<ns4:patientRole classCode="PAT">
+						<ns4:id root="2.25.329381809155566857108441048156822516195" />
+						<ns4:patient classCode="PSN" determinerCode="INSTANCE">
+							<ns4:id nullFlavor="NA" />
+							<ns4:name>
+								<ns4:prefix partType="PFX">MR</ns4:prefix>
+								<ns4:family partType="FAM">MIDDLETON</ns4:family>
+								<ns4:given partType="GIV">JORGE LUIS</ns4:given>
+							</ns4:name>
+							<ns4:administrativeGenderCode code="M"
+								codeSystem="2.16.840.1.113883.13.68" codeSystemName="AS 5017-2006 Health Care Client Identifier Sex"
+								displayName="Male" />
+							<ns4:birthTime value="19760329" />
+							<ns5:asEntityIdentifier classCode="IDENT">
+								<ns5:id assigningAuthorityName="IHI"
+									root="1.2.36.1.2001.1003.0.8003603460392146" />
+								<ns5:assigningGeographicArea
+									classCode="PLC">
+									<ns5:name>National Identifier</ns5:name>
+								</ns5:assigningGeographicArea>
+							</ns5:asEntityIdentifier>
+						</ns4:patient>
+					</ns4:patientRole>
+				</ns4:recordTarget>
+				<ns4:author typeCode="AUT">
+					<ns4:time value="20150408213314+1000" />
+					<ns4:assignedAuthor>
+						<ns4:id root="2.25.117371502072292964461976361715106916384" />
+						<ns4:code nullFlavor="NA" />
+						<ns4:addr nullFlavor="NA" />
+						<ns4:assignedAuthoringDevice>
+							<ns4:softwareName>PCEHR</ns4:softwareName>
+							<ns5:asEntityIdentifier classCode="IDENT">
+								<ns5:id assigningAuthorityName="PAI-D"
+									root="1.2.36.1.2001.1007.20.8003640003000026" />
+								<ns5:assigningGeographicArea
+									classCode="PLC">
+									<ns5:name>National Identifier</ns5:name>
+								</ns5:assigningGeographicArea>
+							</ns5:asEntityIdentifier>
+						</ns4:assignedAuthoringDevice>
+					</ns4:assignedAuthor>
+				</ns4:author>
+				<ns4:custodian typeCode="CST">
+					<ns4:assignedCustodian>
+						<ns4:representedCustodianOrganization>
+							<ns4:id root="2.25.325846986480623510104048012395144572757" />
+							<ns5:asEntityIdentifier classCode="IDENT">
+								<ns5:id assigningAuthorityName="PAI-O"
+									root="1.2.36.1.2001.1007.1.8003640001000036" />
+								<ns5:assigningGeographicArea
+									classCode="PLC">
+									<ns5:name>National Identifier</ns5:name>
+								</ns5:assigningGeographicArea>
+							</ns5:asEntityIdentifier>
+						</ns4:representedCustodianOrganization>
+					</ns4:assignedCustodian>
+				</ns4:custodian>
+				<ns4:component typeCode="COMP">
+					<ns4:structuredBody>
+						<ns4:component typeCode="COMP">
+							<ns4:section>
+								<ns4:id root="2.25.249014513338532370946608300003951257137" />
+								<ns4:code code="101.16778" codeSystem="1.2.36.1.2001.1001.101"
+									codeSystemName="NCTIS Data Components" displayName="Pharmaceutical Benefits History" />
+								<ns4:title>Prescription Information - PBS and RPBS</ns4:title>
+								<ns4:text>
+									<ns4:table>
+										<ns4:thead>
+											<ns4:tr>
+												<ns4:th styleCode="xColWidthPx100">Generic Name</ns4:th>
+												<ns4:th styleCode="xColWidthPx100">Brand</ns4:th>
+												<ns4:th styleCode="xColWidthPx100">Prescribed</ns4:th>
+												<ns4:th styleCode="xColWidthPx100">Supplied</ns4:th>
+												<ns4:th styleCode="xColWidthPx200">Form and Strength</ns4:th>
+												<ns4:th styleCode="xColWidthPx50">Quantity</ns4:th>
+												<ns4:th styleCode="xColWidthPx50">Repeat Number</ns4:th>
+												<ns4:th styleCode="xColWidthPx50">Code</ns4:th>
+											</ns4:tr>
+										</ns4:thead>
+										<ns4:tbody>
+											<ns4:tr>
+												<ns4:td>GRISEOFULVIN</ns4:td>
+												<ns4:td>GRISOVIN 500</ns4:td>
+												<ns4:td>24 Jul 2014 00:00+1000</ns4:td>
+												<ns4:td>30 Jul 2014 00:00+1000</ns4:td>
+												<ns4:td>GRISEOFULVIN 500MG TABLET, 28</ns4:td>
+												<ns4:td>28</ns4:td>
+												<ns4:td>2</ns4:td>
+												<ns4:td>02982Y</ns4:td>
+											</ns4:tr>
+										</ns4:tbody>
+									</ns4:table>
+									<ns4:br />
+								</ns4:text>
+								<ns4:component>
+									<ns4:section>
+										<ns4:code code="101.16649" codeSystem="1.2.36.1.2001.1001.101"
+											codeSystemName="NCTIS Data Components" displayName="Pharmaceutical Benefit Items" />
+										<ns4:entry typeCode="DRIV">
+											<ns4:supply classCode="SPLY" moodCode="EVN">
+												<ns4:code code="102.16674" codeSystem="1.2.36.1.2001.1001.101"
+													codeSystemName="NCTIS Data Components" codeSystemVersion="v1.0"
+													displayName="Pharmaceutical Benefit Item" />
+												<ns4:effectiveTime value="201407300000+1000" />
+												<ns4:quantity value="28" />
+												<ns4:product typeCode="PRD">
+													<ns4:manufacturedProduct classCode="MANU">
+														<ns4:manufacturedMaterial
+															classCode="MMAT" determinerCode="KIND">
+															<ns4:code code="02982Y" codeSystem="1.2.36.1.2001.1005.22"
+																codeSystemName="Australian PBS Code" codeSystemVersion="v1.0"
+																displayName="GRISEOFULVIN" />
+															<ns4:name>GRISOVIN 500</ns4:name>
+														</ns4:manufacturedMaterial>
+													</ns4:manufacturedProduct>
+												</ns4:product>
+												<ns4:entryRelationship typeCode="SUBJ">
+													<ns4:observation classCode="OBS" moodCode="EVN">
+														<ns4:code code="103.16677" codeSystem="1.2.36.1.2001.1001.101"
+															codeSystemName="NCTIS Data Components" codeSystemVersion="v1.0"
+															displayName="Item Form and Strength" />
+														<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+															xsi:type="ns4:ST">GRISEOFULVIN 500MG TABLET, 28</ns4:value>
+													</ns4:observation>
+												</ns4:entryRelationship>
+												<ns4:entryRelationship typeCode="REFR">
+													<ns4:substanceAdministration
+														classCode="SBADM" moodCode="RQO">
+														<ns4:effectiveTime value="201407240000+1000" />
+														<ns4:repeatNumber>
+															<ns4:high inclusive="true" value="2" />
+														</ns4:repeatNumber>
+														<ns4:consumable typeCode="CSM">
+															<ns4:manufacturedProduct
+																classCode="MANU">
+																<ns4:manufacturedMaterial
+																	classCode="MMAT" determinerCode="KIND" />
+															</ns4:manufacturedProduct>
+														</ns4:consumable>
+													</ns4:substanceAdministration>
+												</ns4:entryRelationship>
+											</ns4:supply>
+										</ns4:entry>
+										<ns4:entry>
+											<ns4:act classCode="ACT" moodCode="EVN">
+												<ns4:id nullFlavor="NA" />
+												<ns4:code code="102.16692.172.1.3" codeSystem="1.2.36.1.2001.1001.101"
+													codeSystemName="NCTIS Data Components"
+													displayName="Pharmaceutical Benefit Items Document Provenance" />
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalDocument classCode="DOC"
+														moodCode="EVN">
+														<ns4:templateId extension="1.0"
+															root="1.2.36.1.2001.1001.101.100.1002.142" />
+														<ns4:id
+															root="1.2.36.1.2001.1007.11.8003640002000019.1000000076906277" />
+													</ns4:externalDocument>
+												</ns4:reference>
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalAct>
+														<ns4:id root="1.2.36.1.2001.1007.10.8003640002000019" />
+														<ns4:code code="10" codeSystem="1.2.36.1.2001.1007"
+															codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+													</ns4:externalAct>
+												</ns4:reference>
+											</ns4:act>
+										</ns4:entry>
+									</ns4:section>
+								</ns4:component>
+							</ns4:section>
+						</ns4:component>
+						<ns4:component typeCode="COMP">
+							<ns4:section>
+								<ns4:id root="2.25.217196763314152104937079065060131317524" />
+								<ns4:code code="101.16776" codeSystem="1.2.36.1.2001.1001.101"
+									codeSystemName="NCTIS Data Components"
+									displayName="Australian Childhood Immunisation Register History" />
+								<ns4:title>Australian Childhood Immunisation Register - ACIR
+								</ns4:title>
+								<ns4:text>
+									<ns4:paragraph>No Information Available</ns4:paragraph>
+								</ns4:text>
+								<ns4:component>
+									<ns4:section>
+										<ns4:id root="2.25.17445007729190715001623056371629600345" />
+										<ns4:code code="102.16134.172.1.1" codeSystem="1.2.36.1.2001.1001.101"
+											codeSystemName="NCTIS Data Components" displayName="Exclusion Statement" />
+										<ns4:entry>
+											<ns4:observation classCode="OBS" moodCode="EVN">
+												<ns4:code code="103.16135.172.1.1" codeSystem="1.2.36.1.2001.1001.101"
+													codeSystemName="NCTIS Data Components" displayName="General Statement" />
+												<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+													xsi:type="ns4:ST">No Information Available</ns4:value>
+											</ns4:observation>
+										</ns4:entry>
+									</ns4:section>
+								</ns4:component>
+							</ns4:section>
+						</ns4:component>
+						<ns4:component typeCode="COMP">
+							<ns4:section>
+								<ns4:id root="2.25.196463948745368180291468949137586636770" />
+								<ns4:code code="101.16774" codeSystem="1.2.36.1.2001.1001.101"
+									codeSystemName="NCTIS Data Components"
+									displayName="Australian Organ Donor Register Decision Information" />
+								<ns4:title>Australian Organ Donor Register Decision Information
+								</ns4:title>
+								<ns4:text>
+									<ns4:paragraph>No Information Available</ns4:paragraph>
+								</ns4:text>
+								<ns4:component>
+									<ns4:section>
+										<ns4:id root="2.25.221329845425019189172364434725357139470" />
+										<ns4:code code="102.16134.172.1.2" codeSystem="1.2.36.1.2001.1001.101"
+											codeSystemName="NCTIS Data Components" displayName="Exclusion Statement" />
+										<ns4:entry>
+											<ns4:observation classCode="OBS" moodCode="EVN">
+												<ns4:code code="103.16135.172.1.2" codeSystem="1.2.36.1.2001.1001.101"
+													codeSystemName="NCTIS Data Components" displayName="General Statement" />
+												<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+													xsi:type="ns4:ST">No Information Available</ns4:value>
+											</ns4:observation>
+										</ns4:entry>
+									</ns4:section>
+								</ns4:component>
+							</ns4:section>
+						</ns4:component>
+						<ns4:component typeCode="COMP">
+							<ns4:section>
+								<ns4:id root="2.25.313434282916988192000460240084657444971" />
+								<ns4:code code="101.16780" codeSystem="1.2.36.1.2001.1001.101"
+									codeSystemName="NCTIS Data Components" displayName="Medicare/DVA Funded Services History" />
+								<ns4:title>Medicare Services - MBS and DVA Items</ns4:title>
+								<ns4:text>
+									<ns4:table>
+										<ns4:thead>
+											<ns4:tr>
+												<ns4:th styleCode="xColWidthPx180">Date</ns4:th>
+												<ns4:th styleCode="xColWidthPx60">Number</ns4:th>
+												<ns4:th styleCode="xColWidthPx500">Description</ns4:th>
+												<ns4:th styleCode="xColWidthPx110">Service Provider</ns4:th>
+												<ns4:th>In Hospital?</ns4:th>
+											</ns4:tr>
+										</ns4:thead>
+										<ns4:tbody>
+											<ns4:tr>
+												<ns4:td>19 Jun 2014 00:00+1000</ns4:td>
+												<ns4:td>0069309</ns4:td>
+												<ns4:td>Micro/cult for dermatophytes and fungi</ns4:td>
+												<ns4:td>VIVIENNE ELLIS</ns4:td>
+												<ns4:td>No</ns4:td>
+											</ns4:tr>
+											<ns4:tr>
+												<ns4:td>28 Aug 2014 00:00+1000</ns4:td>
+												<ns4:td>0000105</ns4:td>
+												<ns4:td>Subsequent Specialist Attendance.</ns4:td>
+												<ns4:td>GLENDA WOOD</ns4:td>
+												<ns4:td>No</ns4:td>
+											</ns4:tr>
+											<ns4:tr>
+												<ns4:td>19 Jun 2014 00:00+1000</ns4:td>
+												<ns4:td>0000104</ns4:td>
+												<ns4:td>Initial Specialist Attendance.</ns4:td>
+												<ns4:td>GLENDA WOOD</ns4:td>
+												<ns4:td>No</ns4:td>
+											</ns4:tr>
+											<ns4:tr>
+												<ns4:td>24 Jul 2014 00:00+1000</ns4:td>
+												<ns4:td>0000105</ns4:td>
+												<ns4:td>Subsequent Specialist Attendance.</ns4:td>
+												<ns4:td>GLENDA WOOD</ns4:td>
+												<ns4:td>No</ns4:td>
+											</ns4:tr>
+											<ns4:tr>
+												<ns4:td>09 May 2014 00:00+1000</ns4:td>
+												<ns4:td>0000023</ns4:td>
+												<ns4:td>CONSULTATION AT CONSULTING ROOMS - LEVEL 'B'.
+												</ns4:td>
+												<ns4:td>MIRZA BAIG</ns4:td>
+												<ns4:td>No</ns4:td>
+											</ns4:tr>
+										</ns4:tbody>
+									</ns4:table>
+									<ns4:br />
+								</ns4:text>
+								<ns4:component>
+									<ns4:section>
+										<ns4:code code="101.16643" codeSystem="1.2.36.1.2001.1001.101"
+											codeSystemName="NCTIS Data Components" displayName="Medicare/DVA Funded Services" />
+										<ns4:entry typeCode="DRIV">
+											<ns4:encounter classCode="ENC" moodCode="EVN">
+												<ns4:id nullFlavor="NA" />
+												<ns4:code code="69309" codeSystem="1.2.36.1.2001.1005.21"
+													codeSystemName="Australian MBS Code" codeSystemVersion="v1.0"
+													displayName="Micro/cult for dermatophytes and fungi" />
+												<ns4:effectiveTime value="201406190000+1000" />
+												<ns4:performer typeCode="PRF">
+													<ns4:assignedEntity classCode="ASSIGNED">
+														<ns4:id nullFlavor="NA" />
+														<ns4:code code="253514" codeSystem="2.16.840.1.113883.13.62"
+															codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006"
+															codeSystemVersion="ANZSCO1.2" displayName="Orthopaedic Surgeon" />
+														<ns4:assignedPerson classCode="PSN"
+															determinerCode="INSTANCE">
+															<ns4:name>
+																<ns4:prefix mediaType="text/plain"
+																	representation="TXT">DR</ns4:prefix>
+																<ns4:family mediaType="text/plain"
+																	representation="TXT">ELLIS</ns4:family>
+																<ns4:given mediaType="text/plain"
+																	representation="TXT">VIVIENNE</ns4:given>
+															</ns4:name>
+														</ns4:assignedPerson>
+													</ns4:assignedEntity>
+												</ns4:performer>
+												<ns4:entryRelationship typeCode="SUBJ">
+													<ns4:observation classCode="OBS" moodCode="EVN">
+														<ns4:code code="103.16642" codeSystem="1.2.36.1.2001.1001.101"
+															codeSystemName="NCTIS Data Components" codeSystemVersion="v1.0"
+															displayName="Service In Hospital Indicator" />
+														<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+															value="false" xsi:type="ns4:BL" />
+													</ns4:observation>
+												</ns4:entryRelationship>
+											</ns4:encounter>
+										</ns4:entry>
+										<ns4:entry>
+											<ns4:act classCode="ACT" moodCode="EVN">
+												<ns4:id nullFlavor="NA" />
+												<ns4:code code="102.16692.172.1.4" codeSystem="1.2.36.1.2001.1001.101"
+													codeSystemName="NCTIS Data Components"
+													displayName="Medicare/DVA Funded Services Document Provenance" />
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalDocument classCode="DOC"
+														moodCode="EVN">
+														<ns4:templateId extension="1.0"
+															root="1.2.36.1.2001.1001.101.100.1002.140" />
+														<ns4:id
+															root="1.2.36.1.2001.1007.11.8003640002000043.1000000124081928" />
+													</ns4:externalDocument>
+												</ns4:reference>
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalAct>
+														<ns4:id root="1.2.36.1.2001.1007.10.8003640002000043" />
+														<ns4:code code="10" codeSystem="1.2.36.1.2001.1007"
+															codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+													</ns4:externalAct>
+												</ns4:reference>
+											</ns4:act>
+										</ns4:entry>
+									</ns4:section>
+								</ns4:component>
+								<ns4:component>
+									<ns4:section>
+										<ns4:code code="101.16643" codeSystem="1.2.36.1.2001.1001.101"
+											codeSystemName="NCTIS Data Components" displayName="Medicare/DVA Funded Services" />
+										<ns4:entry typeCode="DRIV">
+											<ns4:encounter classCode="ENC" moodCode="EVN">
+												<ns4:id nullFlavor="NA" />
+												<ns4:code code="00105" codeSystem="1.2.36.1.2001.1005.21"
+													codeSystemName="Australian MBS Code" codeSystemVersion="v1.0"
+													displayName="Subsequent Specialist Attendance." />
+												<ns4:effectiveTime value="201408280000+1000" />
+												<ns4:performer typeCode="PRF">
+													<ns4:assignedEntity classCode="ASSIGNED">
+														<ns4:id nullFlavor="NA" />
+														<ns4:code code="253514" codeSystem="2.16.840.1.113883.13.62"
+															codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006"
+															codeSystemVersion="ANZSCO1.2" displayName="Orthopaedic Surgeon" />
+														<ns4:assignedPerson classCode="PSN"
+															determinerCode="INSTANCE">
+															<ns4:name>
+																<ns4:prefix mediaType="text/plain"
+																	representation="TXT">DR</ns4:prefix>
+																<ns4:family mediaType="text/plain"
+																	representation="TXT">WOOD</ns4:family>
+																<ns4:given mediaType="text/plain"
+																	representation="TXT">GLENDA</ns4:given>
+															</ns4:name>
+														</ns4:assignedPerson>
+													</ns4:assignedEntity>
+												</ns4:performer>
+												<ns4:entryRelationship typeCode="SUBJ">
+													<ns4:observation classCode="OBS" moodCode="EVN">
+														<ns4:code code="103.16642" codeSystem="1.2.36.1.2001.1001.101"
+															codeSystemName="NCTIS Data Components" codeSystemVersion="v1.0"
+															displayName="Service In Hospital Indicator" />
+														<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+															value="false" xsi:type="ns4:BL" />
+													</ns4:observation>
+												</ns4:entryRelationship>
+											</ns4:encounter>
+										</ns4:entry>
+										<ns4:entry>
+											<ns4:act classCode="ACT" moodCode="EVN">
+												<ns4:id nullFlavor="NA" />
+												<ns4:code code="102.16692.172.1.4" codeSystem="1.2.36.1.2001.1001.101"
+													codeSystemName="NCTIS Data Components"
+													displayName="Medicare/DVA Funded Services Document Provenance" />
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalDocument classCode="DOC"
+														moodCode="EVN">
+														<ns4:templateId extension="1.0"
+															root="1.2.36.1.2001.1001.101.100.1002.140" />
+														<ns4:id
+															root="1.2.36.1.2001.1007.11.8003640002000043.1000000124081927" />
+													</ns4:externalDocument>
+												</ns4:reference>
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalAct>
+														<ns4:id root="1.2.36.1.2001.1007.10.8003640002000043" />
+														<ns4:code code="10" codeSystem="1.2.36.1.2001.1007"
+															codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+													</ns4:externalAct>
+												</ns4:reference>
+											</ns4:act>
+										</ns4:entry>
+									</ns4:section>
+								</ns4:component>
+								<ns4:component>
+									<ns4:section>
+										<ns4:code code="101.16643" codeSystem="1.2.36.1.2001.1001.101"
+											codeSystemName="NCTIS Data Components" displayName="Medicare/DVA Funded Services" />
+										<ns4:entry typeCode="DRIV">
+											<ns4:encounter classCode="ENC" moodCode="EVN">
+												<ns4:id nullFlavor="NA" />
+												<ns4:code code="00104" codeSystem="1.2.36.1.2001.1005.21"
+													codeSystemName="Australian MBS Code" codeSystemVersion="v1.0"
+													displayName="Initial Specialist Attendance." />
+												<ns4:effectiveTime value="201406190000+1000" />
+												<ns4:performer typeCode="PRF">
+													<ns4:assignedEntity classCode="ASSIGNED">
+														<ns4:id nullFlavor="NA" />
+														<ns4:code code="253514" codeSystem="2.16.840.1.113883.13.62"
+															codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006"
+															codeSystemVersion="ANZSCO1.2" displayName="Orthopaedic Surgeon" />
+														<ns4:assignedPerson classCode="PSN"
+															determinerCode="INSTANCE">
+															<ns4:name>
+																<ns4:prefix mediaType="text/plain"
+																	representation="TXT">DR</ns4:prefix>
+																<ns4:family mediaType="text/plain"
+																	representation="TXT">WOOD</ns4:family>
+																<ns4:given mediaType="text/plain"
+																	representation="TXT">GLENDA</ns4:given>
+															</ns4:name>
+														</ns4:assignedPerson>
+													</ns4:assignedEntity>
+												</ns4:performer>
+												<ns4:entryRelationship typeCode="SUBJ">
+													<ns4:observation classCode="OBS" moodCode="EVN">
+														<ns4:code code="103.16642" codeSystem="1.2.36.1.2001.1001.101"
+															codeSystemName="NCTIS Data Components" codeSystemVersion="v1.0"
+															displayName="Service In Hospital Indicator" />
+														<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+															value="false" xsi:type="ns4:BL" />
+													</ns4:observation>
+												</ns4:entryRelationship>
+											</ns4:encounter>
+										</ns4:entry>
+										<ns4:entry>
+											<ns4:act classCode="ACT" moodCode="EVN">
+												<ns4:id nullFlavor="NA" />
+												<ns4:code code="102.16692.172.1.4" codeSystem="1.2.36.1.2001.1001.101"
+													codeSystemName="NCTIS Data Components"
+													displayName="Medicare/DVA Funded Services Document Provenance" />
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalDocument classCode="DOC"
+														moodCode="EVN">
+														<ns4:templateId extension="1.0"
+															root="1.2.36.1.2001.1001.101.100.1002.140" />
+														<ns4:id
+															root="1.2.36.1.2001.1007.11.8003640002000043.1000000124081930" />
+													</ns4:externalDocument>
+												</ns4:reference>
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalAct>
+														<ns4:id root="1.2.36.1.2001.1007.10.8003640002000043" />
+														<ns4:code code="10" codeSystem="1.2.36.1.2001.1007"
+															codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+													</ns4:externalAct>
+												</ns4:reference>
+											</ns4:act>
+										</ns4:entry>
+									</ns4:section>
+								</ns4:component>
+								<ns4:component>
+									<ns4:section>
+										<ns4:code code="101.16643" codeSystem="1.2.36.1.2001.1001.101"
+											codeSystemName="NCTIS Data Components" displayName="Medicare/DVA Funded Services" />
+										<ns4:entry typeCode="DRIV">
+											<ns4:encounter classCode="ENC" moodCode="EVN">
+												<ns4:id nullFlavor="NA" />
+												<ns4:code code="00105" codeSystem="1.2.36.1.2001.1005.21"
+													codeSystemName="Australian MBS Code" codeSystemVersion="v1.0"
+													displayName="Subsequent Specialist Attendance." />
+												<ns4:effectiveTime value="201407240000+1000" />
+												<ns4:performer typeCode="PRF">
+													<ns4:assignedEntity classCode="ASSIGNED">
+														<ns4:id nullFlavor="NA" />
+														<ns4:code code="253514" codeSystem="2.16.840.1.113883.13.62"
+															codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006"
+															codeSystemVersion="ANZSCO1.2" displayName="Orthopaedic Surgeon" />
+														<ns4:assignedPerson classCode="PSN"
+															determinerCode="INSTANCE">
+															<ns4:name>
+																<ns4:prefix mediaType="text/plain"
+																	representation="TXT">DR</ns4:prefix>
+																<ns4:family mediaType="text/plain"
+																	representation="TXT">WOOD</ns4:family>
+																<ns4:given mediaType="text/plain"
+																	representation="TXT">GLENDA</ns4:given>
+															</ns4:name>
+														</ns4:assignedPerson>
+													</ns4:assignedEntity>
+												</ns4:performer>
+												<ns4:entryRelationship typeCode="SUBJ">
+													<ns4:observation classCode="OBS" moodCode="EVN">
+														<ns4:code code="103.16642" codeSystem="1.2.36.1.2001.1001.101"
+															codeSystemName="NCTIS Data Components" codeSystemVersion="v1.0"
+															displayName="Service In Hospital Indicator" />
+														<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+															value="false" xsi:type="ns4:BL" />
+													</ns4:observation>
+												</ns4:entryRelationship>
+											</ns4:encounter>
+										</ns4:entry>
+										<ns4:entry>
+											<ns4:act classCode="ACT" moodCode="EVN">
+												<ns4:id nullFlavor="NA" />
+												<ns4:code code="102.16692.172.1.4" codeSystem="1.2.36.1.2001.1001.101"
+													codeSystemName="NCTIS Data Components"
+													displayName="Medicare/DVA Funded Services Document Provenance" />
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalDocument classCode="DOC"
+														moodCode="EVN">
+														<ns4:templateId extension="1.0"
+															root="1.2.36.1.2001.1001.101.100.1002.140" />
+														<ns4:id
+															root="1.2.36.1.2001.1007.11.8003640002000043.1000000124081929" />
+													</ns4:externalDocument>
+												</ns4:reference>
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalAct>
+														<ns4:id root="1.2.36.1.2001.1007.10.8003640002000043" />
+														<ns4:code code="10" codeSystem="1.2.36.1.2001.1007"
+															codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+													</ns4:externalAct>
+												</ns4:reference>
+											</ns4:act>
+										</ns4:entry>
+									</ns4:section>
+								</ns4:component>
+								<ns4:component>
+									<ns4:section>
+										<ns4:code code="101.16643" codeSystem="1.2.36.1.2001.1001.101"
+											codeSystemName="NCTIS Data Components" displayName="Medicare/DVA Funded Services" />
+										<ns4:entry typeCode="DRIV">
+											<ns4:encounter classCode="ENC" moodCode="EVN">
+												<ns4:id nullFlavor="NA" />
+												<ns4:code code="00023" codeSystem="1.2.36.1.2001.1005.21"
+													codeSystemName="Australian MBS Code" codeSystemVersion="v1.0"
+													displayName="CONSULTATION AT CONSULTING ROOMS - LEVEL 'B'." />
+												<ns4:effectiveTime value="201405090000+1000" />
+												<ns4:performer typeCode="PRF">
+													<ns4:assignedEntity classCode="ASSIGNED">
+														<ns4:id nullFlavor="NA" />
+														<ns4:code code="253514" codeSystem="2.16.840.1.113883.13.62"
+															codeSystemName="1220.0 - ANZSCO - Australian and New Zealand Standard Classification of Occupations, First Edition, 2006"
+															codeSystemVersion="ANZSCO1.2" displayName="Orthopaedic Surgeon" />
+														<ns4:assignedPerson classCode="PSN"
+															determinerCode="INSTANCE">
+															<ns4:name>
+																<ns4:prefix mediaType="text/plain"
+																	representation="TXT">DR</ns4:prefix>
+																<ns4:family mediaType="text/plain"
+																	representation="TXT">BAIG</ns4:family>
+																<ns4:given mediaType="text/plain"
+																	representation="TXT">MIRZA</ns4:given>
+															</ns4:name>
+														</ns4:assignedPerson>
+													</ns4:assignedEntity>
+												</ns4:performer>
+												<ns4:entryRelationship typeCode="SUBJ">
+													<ns4:observation classCode="OBS" moodCode="EVN">
+														<ns4:code code="103.16642" codeSystem="1.2.36.1.2001.1001.101"
+															codeSystemName="NCTIS Data Components" codeSystemVersion="v1.0"
+															displayName="Service In Hospital Indicator" />
+														<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+															value="false" xsi:type="ns4:BL" />
+													</ns4:observation>
+												</ns4:entryRelationship>
+											</ns4:encounter>
+										</ns4:entry>
+										<ns4:entry>
+											<ns4:act classCode="ACT" moodCode="EVN">
+												<ns4:id nullFlavor="NA" />
+												<ns4:code code="102.16692.172.1.4" codeSystem="1.2.36.1.2001.1001.101"
+													codeSystemName="NCTIS Data Components"
+													displayName="Medicare/DVA Funded Services Document Provenance" />
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalDocument classCode="DOC"
+														moodCode="EVN">
+														<ns4:templateId extension="1.0"
+															root="1.2.36.1.2001.1001.101.100.1002.140" />
+														<ns4:id
+															root="1.2.36.1.2001.1007.11.8003640002000043.1000000124081931" />
+													</ns4:externalDocument>
+												</ns4:reference>
+												<ns4:reference typeCode="REFR">
+													<ns4:seperatableInd value="true" />
+													<ns4:externalAct>
+														<ns4:id root="1.2.36.1.2001.1007.10.8003640002000043" />
+														<ns4:code code="10" codeSystem="1.2.36.1.2001.1007"
+															codeSystemName="PCEHR Identifiers" displayName="PCEHR Assigned Identifier - Repository" />
+													</ns4:externalAct>
+												</ns4:reference>
+											</ns4:act>
+										</ns4:entry>
+									</ns4:section>
+								</ns4:component>
+							</ns4:section>
+						</ns4:component>
+						<ns4:component>
+							<ns4:section>
+								<ns4:id root="2.25.172434746036692731617922049644473015167" />
+								<ns4:code code="102.16080" codeSystem="1.2.36.1.2001.1001.101"
+									codeSystemName="NCTIS Data Components" displayName="Administrative Observations" />
+								<ns4:title>Administrative Observations</ns4:title>
+								<ns4:entry>
+									<ns4:observation classCode="OBS" moodCode="EVN">
+										<ns4:id root="2.25.29854730720061605604581451642143484212" />
+										<ns4:code code="103.15507" codeSystem="1.2.36.1.2001.1001.101"
+											codeSystemName="NCTIS Data Components" displayName="Earliest Date for Filtering" />
+										<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+											value="20130408" xsi:type="ns4:TS" />
+									</ns4:observation>
+								</ns4:entry>
+								<ns4:entry>
+									<ns4:observation classCode="OBS" moodCode="EVN">
+										<ns4:id root="2.25.200962942598154347148177948624007547094" />
+										<ns4:code code="103.15510" codeSystem="1.2.36.1.2001.1001.101"
+											codeSystemName="NCTIS Data Components" displayName="Latest Date for Filtering" />
+										<ns4:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+											value="20150408" xsi:type="ns4:TS" />
+									</ns4:observation>
+								</ns4:entry>
+							</ns4:section>
+						</ns4:component>
+					</ns4:structuredBody>
+				</ns4:component>
+			</ns4:ClinicalDocument>
+		</ns:data>
+	</ns:view>
+</ns:getViewResponse>

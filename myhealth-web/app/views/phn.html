@@ -1,0 +1,91 @@
+<div ng-controller="DocumentCtrl as documentCtrl">
+	<div class="row wrapper border-bottom white-bg page-heading">
+		<div class="col-lg-10">
+			<h2>Personal Health Notes</h2>
+			<p>This is your private notes area. You can enter any information you like to help you keep track of your health, and edit or delete
+				these notes as needed.</p>
+		</div>
+	</div>
+	<div class="wrapper wrapper-content">
+		<div class="alert ng-isolate-scope alert-danger alert-dismissable" ng-if="error != null"
+			ng-class="['alert-' + (type || 'warning'), closeable ? 'alert-dismissable' : null]" role="alert" type="danger">
+			<button type="button" class="close" ng-click="close()">
+				<span aria-hidden="true">×</span> <span class="sr-only">Close</span>
+			</button>
+			<div>
+				<strong>{{error.title}}</strong> <span class="ng-binding ng-scope">{{error.message}}</span>
+			</div>
+		</div>
+		<div class="row animated fadeInRight">
+			<div class="col-lg-6">
+				<div class="ibox float-e-margins">
+					<div>
+						<h4>View/edit existing Personal Health Notes</h4>
+					</div>
+					<div class="ibox-content">
+						<table class="table table-striped table-bordered table-hover dataTables-example">
+							<thead>
+								<tr>
+									<th>Access Date</th>
+									<th>Note Title</th>
+									<th>Event Date</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr ng-repeat="entry in documentCtrl.documentResult | orderBy:'-resource.created'">
+									<td>{{entry.resource.created | date:'dd-MM-yyyy'}}</td>
+									<td><a ui-sref="views.view({repoId: entry.resource.identifier[0].value, docId: entry.resource.masterIdentifier.value})">{{entry.resource.description}}</a></td>
+									<td>{{entry.resource.indexed | date:'dd-MM-yyyy'}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<div class="ibox float-e-margins">
+					<div>
+						<h4>Add a new Personal Health Note</h4>
+					</div>
+					<div class="ibox-content">
+						<form class="form-horizontal ng-pristine ng-valid">
+							<div class="form-group">
+								<label class="col-lg-2 control-label">Title</label>
+
+								<div class="col-lg-10">
+									<input type="text" required="required" placeholder="Title" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-2 control-label">Description</label>
+
+								<div class="col-lg-10">
+									<textarea placeholder="Description" required="required" class="form-control" rows="5"></textarea>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-2 control-label">Event Date</label>
+								<div class="col-lg-10">
+									<div class="input-group date">
+										<input type="datetime" placeholder="Event Date" class="form-control ng-pristine ng-valid ng-scope ng-touched" date-time=""
+											ng-model="sampleDate" view="date"> <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="col-lg-offset-2 col-lg-10">
+									<button class="btn btn-sm btn-white btn-primary" type="submit">Save</button>
+									<button class="btn btn-sm btn-white btn-secondary" type="submit">Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>

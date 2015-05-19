@@ -1,0 +1,2 @@
+<ns1:getPCEHRRecordList
+	xmlns:ns1="http://ns.electronichealth.net.au/pcehr/xsd/interfaces/GetPCEHRRecordList/1.0">anyType</ns1:getPCEHRRecordList>

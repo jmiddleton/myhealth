@@ -1,0 +1,10 @@
+  <ns:authenticateUser xmlns:ns="http://ns.electronichealth.net.au/tplt/xsd/interfaces/Authenticate/1.0">
+     <ns:agahSAML>${agahSaml}</ns:agahSAML>
+     <ns:username>${username}</ns:username>
+     <ns:productType>
+        <ns:vendor>PuntaNegra</ns:vendor>
+        <ns:productName>MyHealth</ns:productName>
+        <ns:productVersion>1.0.0</ns:productVersion>
+        <ns:platform>web</ns:platform>
+     </ns:productType>
+  </ns:authenticateUser>

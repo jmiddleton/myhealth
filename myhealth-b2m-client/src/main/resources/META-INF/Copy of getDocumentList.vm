@@ -1,0 +1,37 @@
+<query:AdhocQueryRequest xmlns:lcm="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0" xmlns:urn1="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0"
+	xmlns:cce="http://ns.electronichealth.net.au/pcehr/xsd/common/CommonCoreElements/1.0" xmlns:ns4="urn:hl7-org:v3"
+	xmlns:query="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0" xmlns:rs="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0" xmlns:urn="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cm="http://ns.electronichealth.net.au/pcehr/xsd/common/CanonicalModel/1.0"
+	xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:ihe="urn:ihe:iti:xds-b:2007"
+	xmlns:cicda="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0" xmlns:ns2="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0">
+	<query:ResponseOption returnComposedObjects="true" returnType="LeafClass" />
+	<rim:AdhocQuery id="urn:uuid:14d4debf-8f97-4251-9a74-a90016b0af0d">
+		<rim:Slot name="$XDSDocumentEntryPatientId">
+			<rim:ValueList>
+				<rim:Value>'${ihi}^^^&amp;1.2.36.1.2001.1003.0&amp;ISO'</rim:Value>
+			</rim:ValueList>
+		</rim:Slot>
+		<rim:Slot name="$XDSDocumentEntryStatus">
+			<rim:ValueList>
+				<rim:Value>('urn:oasis:names:tc:ebxml-regrep:StatusType:Approved')</rim:Value>
+				<rim:Value>('urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated')</rim:Value>
+			</rim:ValueList>
+		</rim:Slot>
+		<rim:Slot name="$XDSDocumentEntryClassCode">
+			<rim:ValueList>
+				<rim:Value>'100.16870^^NCTIS Data Components'</rim:Value>
+				<!-- PHO -->
+				<rim:Value>'100.16812^^NCTIS Data Components'</rim:Value>
+				<!-- PHA -->
+				<rim:Value>'100.16919^^NCTIS Data Components'</rim:Value>
+				<!-- CPQ -->
+				<rim:Value>'100.16920^^NCTIS Data Components'</rim:Value>
+				<!-- HCA -->
+				<rim:Value>'100.16659^^NCTIS'</rim:Value>
+				<!-- ACIR -->
+				<rim:Value>'100.16681^^NCTIS'</rim:Value>
+				<!-- PHN -->
+			</rim:ValueList>
+		</rim:Slot>
+	</rim:AdhocQuery>
+</query:AdhocQueryRequest>

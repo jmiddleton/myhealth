@@ -1,0 +1,288 @@
+<xdsb:ProvideAndRegisterDocumentSetRequest xmlns:xdsb="urn:ihe:iti:xds-b:2007">
+	<lcm:SubmitObjectsRequest xmlns:ns2="http://www.w3.org/2005/08/addressing" 
+		xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0"
+		xmlns:ns3="http://ns.electronichealth.net.au/pcehr/xsd/common/intCommonCoreElements/1.0" xmlns:ns5="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0"
+		xmlns:ns6="urn:ihe:iti:xds-b:2007" xmlns:ns7="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0" 
+		xmlns:lcm="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0"
+		xmlns:ns="http://ns.electronichealth.net.au/pcehr/xsd/common/CanonicalModel/1.0">
+		<rim:RegistryObjectList>
+			<rim:ExtrinsicObject id="Document01" mimeType="application/zip" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1"
+				status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved">
+				<rim:Slot name="creationTime">
+					<rim:ValueList>
+						<rim:Value>${creationTime}</rim:Value>
+					</rim:ValueList>
+				</rim:Slot>
+				<rim:Slot name="languageCode">
+					<rim:ValueList>
+						<rim:Value>en-AU</rim:Value>
+					</rim:ValueList>
+				</rim:Slot>
+				<rim:Slot name="serviceStartTime">
+					<rim:ValueList>
+						<rim:Value>${creationTime}</rim:Value>
+					</rim:ValueList>
+				</rim:Slot>
+				<rim:Slot name="serviceStopTime">
+					<rim:ValueList>
+						<rim:Value>${creationTime}</rim:Value>
+					</rim:ValueList>
+				</rim:Slot>
+				<rim:Slot name="sourcePatientId">
+					<rim:ValueList>
+						<rim:Value>${ihi}^^^&amp;1.2.36.1.2001.1003.0&amp;ISO</rim:Value>
+					</rim:ValueList>
+				</rim:Slot>
+				<rim:Name>
+					<rim:LocalizedString value="${title}" />
+				</rim:Name>
+				<rim:Description>
+					<rim:LocalizedString value="Personal Health Note" />
+				</rim:Description>
+				<rim:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="Document01"
+					id="cl01" nodeRepresentation="">
+					<rim:Slot name="authorPerson">
+						<rim:ValueList>
+							<rim:Value>^${repFamilyName}^${repGivenName}^^^^^^^&amp;1.2.36.1.2001.1003.0.${ihi}&amp;ISO</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+					<rim:Slot name="authorInstitution">
+						<rim:ValueList>
+							<rim:Value>National Consumer Portal^^^^^^^^^${repoId}</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+				</rim:Classification>
+				<rim:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="Document01"
+					id="cl02" nodeRepresentation="100.16681">
+					<rim:Slot name="codingScheme">
+						<rim:ValueList>
+							<rim:Value>NCTIS Data Components</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+					<rim:Name>
+						<rim:LocalizedString value="Personal Health Note" />
+					</rim:Name>
+				</rim:Classification>
+				<rim:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="Document01"
+					id="cl03" nodeRepresentation="N/A">
+					<rim:Slot name="codingScheme">
+						<rim:ValueList>
+							<rim:Value>PCEHR_DocAccessLevels</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+					<rim:Name>
+						<rim:LocalizedString value="General Access" />
+					</rim:Name>
+				</rim:Classification>
+				<rim:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="Document01"
+					id="cl04" nodeRepresentation="1.2.36.1.2001.1006.1.16681.2">
+					<rim:Slot name="codingScheme">
+						<rim:ValueList>
+							<rim:Value>PCEHR_FormatCodes</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+					<rim:Name>
+						<rim:LocalizedString value="Personal Health Note" />
+					</rim:Name>
+				</rim:Classification>
+				<rim:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="Document01"
+					id="cl05" nodeRepresentation="7562">
+					<rim:Slot name="codingScheme">
+						<rim:ValueList>
+							<rim:Value>ANZSIC</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+					<rim:Name>
+						<rim:LocalizedString value="Provision and administration of public health program" />
+					</rim:Name>
+				</rim:Classification>
+				<rim:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="Document01"
+					id="cl06" nodeRepresentation="7562-1">
+					<rim:Slot name="codingScheme">
+						<rim:ValueList>
+							<rim:Value>ANZSIC</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+					<rim:Name>
+						<rim:LocalizedString value="Provision and administration of public health program" />
+					</rim:Name>
+				</rim:Classification>
+				<rim:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="Document01"
+					id="cl07" nodeRepresentation="100.16681">
+					<rim:Slot name="codingScheme">
+						<rim:ValueList>
+							<rim:Value>NCTIS Data Components</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+					<rim:Name>
+						<rim:LocalizedString value="Personal Health Note" />
+					</rim:Name>
+				</rim:Classification>
+				<rim:ExternalIdentifier id="ei01" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427"
+					registryObject="Document01" value="${ihi}^^^&amp;1.2.36.1.2001.1003.0&amp;ISO">
+					<rim:Name>
+						<rim:LocalizedString value="XDSDocumentEntry.patientId" />
+					</rim:Name>
+				</rim:ExternalIdentifier>
+				<rim:ExternalIdentifier id="ei02" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab"
+					registryObject="Document01" value="${oid}">
+					<rim:Name>
+						<rim:LocalizedString value="XDSDocumentEntry.uniqueId" />
+					</rim:Name>
+				</rim:ExternalIdentifier>
+			</rim:ExtrinsicObject>
+			<rim:RegistryPackage id="SubmissionSet01">
+				<rim:Slot name="submissionTime">
+					<rim:ValueList>
+						<rim:Value>${creationTime}</rim:Value>
+					</rim:ValueList>
+				</rim:Slot>
+				<rim:Name>
+					<rim:LocalizedString value="${title}" />
+				</rim:Name>
+				<rim:Description>
+					<rim:LocalizedString value="Personal Health Note" />
+				</rim:Description>
+				<rim:Classification classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" classifiedObject="SubmissionSet01"
+					id="cl08" nodeRepresentation="">
+					<rim:Slot name="authorPerson">
+						<rim:ValueList>
+							<rim:Value>^${repFamilyName}^${repGivenName}^^^^^^^&amp;1.2.36.1.2001.1003.0.${ihi}&amp;ISO</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+					<rim:Slot name="authorInstitution">
+						<rim:ValueList>
+							<rim:Value>National Consumer Portal^^^^^^^^^${repoId}</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+				</rim:Classification>
+				<rim:Classification classificationScheme="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" classifiedObject="SubmissionSet01"
+					id="cl09" nodeRepresentation="100.16681">
+					<rim:Slot name="codingScheme">
+						<rim:ValueList>
+							<rim:Value>NCTIS Data Components</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+					<rim:Name>
+						<rim:LocalizedString value="Personal Health Note" />
+					</rim:Name>
+				</rim:Classification>
+				<rim:ExternalIdentifier id="ei03" identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8"
+					registryObject="SubmissionSet01" value="${oid}">
+					<rim:Name>
+						<rim:LocalizedString value="XDSSubmissionSet.uniqueId" />
+					</rim:Name>
+				</rim:ExternalIdentifier>
+				<rim:ExternalIdentifier id="ei04" identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832"
+					registryObject="SubmissionSet01" value="${repoId}">
+					<rim:Name>
+						<rim:LocalizedString value="XDSSubmissionSet.sourceId" />
+					</rim:Name>
+				</rim:ExternalIdentifier>
+				<rim:ExternalIdentifier id="ei05" identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446"
+					registryObject="SubmissionSet01" value="${ihi}^^^&amp;1.2.36.1.2001.1003.0&amp;ISO">
+					<rim:Name>
+						<rim:LocalizedString value="XDSSubmissionSet.patientId" />
+					</rim:Name>
+				</rim:ExternalIdentifier>
+			</rim:RegistryPackage>
+			<rim:Classification classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" classifiedObject="SubmissionSet01"
+				id="cl10" />
+			<rim:Association associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" id="as01" sourceObject="SubmissionSet01"
+				targetObject="Document01">
+				<rim:Slot name="SubmissionSetStatus">
+					<rim:ValueList>
+						<rim:Value>Original</rim:Value>
+					</rim:ValueList>
+				</rim:Slot>
+			</rim:Association>
+		</rim:RegistryObjectList>
+	</lcm:SubmitObjectsRequest>
+	<ns6:Document xmlns:ns2="http://www.w3.org/2005/08/addressing" xmlns:ns4="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0"
+		xmlns:ns3="http://ns.electronichealth.net.au/pcehr/xsd/common/intCommonCoreElements/1.0" xmlns:ns5="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0"
+		xmlns:ns6="urn:ihe:iti:xds-b:2007" xmlns:ns7="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0" xmlns:ns8="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0"
+		xmlns:ns="http://ns.electronichealth.net.au/pcehr/xsd/common/CanonicalModel/1.0" id="Document01">
+		<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:ns2="http://ns.electronichealth.net.au/Ci/Cda/Extensions/3.0">
+			<typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3" />
+			<templateId extension="1.0" root="1.2.36.1.2001.1001.101.100.1002.151" />
+			<templateId extension="1.0" root="1.2.36.1.2001.1001.100.149" />
+			<id root="${oid}" />
+			<code displayName="Consumer Entered Notes" codeSystemName="NCTIS Data Components" codeSystem="1.2.36.1.2001.1001.101" code="100.16681" />
+			<effectiveTime value="${longDatetime}" />
+			<confidentialityCode nullFlavor="NA" />
+			<languageCode code="en-AU" />
+			<ns2:completionCode displayName="Final" codeSystemName="NCTIS Document Status Values" codeSystem="1.2.36.1.2001.1001.101.104.20104"
+				code="F" />
+			<recordTarget>
+				<patientRole>
+					<id root="${patientRoleRootId}" />
+					<addr nullFlavor="UNK" />
+					<patient>
+						<name use="L">
+							<given>${givenName}</given>
+							<family>${familyName}</family>
+						</name>
+						<administrativeGenderCode displayName="${gender}" codeSystemName="AS 5017-2006 Health Care Client Identifier Sex"
+							codeSystem="2.16.840.1.113883.13.68" code="${genderType}" />
+						<birthTime value="${dateOfBirth}" />
+						<ethnicGroupCode displayName="Not stated/inadequately described" codeSystemName="METeOR Indigenous Status" codeSystem="2.16.840.1.113883.3.879.291036"
+							code="9" />
+						<ns2:asEntityIdentifier classCode="IDENT">
+							<ns2:id assigningAuthorityName="IHI" root="1.2.36.1.2001.1003.0.${ihi}" />
+							<ns2:assigningGeographicArea classCode="PLC">
+								<ns2:name>National Identifier</ns2:name>
+							</ns2:assigningGeographicArea>
+						</ns2:asEntityIdentifier>
+					</patient>
+				</patientRole>
+			</recordTarget>
+			<author>
+				<time value="${longDatetime}" />
+				<assignedAuthor>
+					<id root="8e0851ab-ccfa-4704-b4a6-5febac19b00c" />
+					<code nullFlavor="NA" />
+					<assignedPerson>
+						<name use="L">
+							<given>${repGivenName}</given>
+							<family>${repFamilyName}</family>
+						</name>
+						<ns2:asEntityIdentifier classCode="IDENT">
+							<ns2:id assigningAuthorityName="IHI" root="1.2.36.1.2001.1003.0.${ihi}" />
+						</ns2:asEntityIdentifier>
+					</assignedPerson>
+				</assignedAuthor>
+			</author>
+			<custodian>
+				<assignedCustodian>
+					<representedCustodianOrganization>
+						<id root="${reprCustodianRootId}" />
+						<name>National Consumer Portal</name>
+						<ns2:asEntityIdentifier classCode="IDENT">
+							<ns2:id root="${repoId}" />
+						</ns2:asEntityIdentifier>
+					</representedCustodianOrganization>
+				</assignedCustodian>
+			</custodian>
+			<component>
+				<structuredBody>
+					<component>
+						<section>
+							<code displayName="Administrative Observations" codeSystemName="NCTIS Data Components" codeSystem="1.2.36.1.2001.1001.101" code="102.16080" />
+							<title>Administrative Observations</title>
+							<text>
+								<paragraph>No administrative observations.</paragraph>
+							</text>
+						</section>
+					</component>
+					<component>
+						<section>
+							<code displayName="Consumer Entered Note" codeSystemName="NCTIS Data Components" codeSystem="1.2.36.1.2001.1001.101" code="102.15513" />
+							<title>${title}</title>
+							<text>${text}</text>
+						</section>
+					</component>
+				</structuredBody>
+			</component>
+		</ClinicalDocument>
+	</ns6:Document>
+</xdsb:ProvideAndRegisterDocumentSetRequest>

@@ -1,0 +1,10 @@
+<ns1:getView xmlns:ns1="http://ns.electronichealth.net.au/pcehr/xsd/interfaces/GetView/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ns1:view xsi:type="ns2:observationView" xmlns:ns2="http://ns.electronichealth.net.au/pcehr/xsd/interfaces/ObservationView/1.0">
+		<ns2:versionNumber>1.0</ns2:versionNumber>
+		<ns2:fromDate>${fromDate}</ns2:fromDate>
+		<ns2:toDate>${toDate}</ns2:toDate>
+		<ns2:observationType>${observationType}</ns2:observationType>
+		<ns2:documentSource>ALL</ns2:documentSource>
+		<ns2:referenceData>${referenceData}</ns2:referenceData>
+	</ns1:view>
+</ns1:getView>
