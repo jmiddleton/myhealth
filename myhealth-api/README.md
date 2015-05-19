@@ -15,3 +15,10 @@ To build the project execute the following steps:
 	zip myhealth-api_v[VERSION].zip *
 	
 7.- deploy the zip file on AWS Beanstalk
+
+
+------------------ jenkins -----------------
+copy target/docker/Dockerfile and target/docker/myhealth-api-[VERSION].jar
+update Dockerfile with the latest jar
+zip  myhealth-api_v[VERSION].zip *
+deploy on AWS Beanstalk
