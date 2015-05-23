@@ -5,7 +5,7 @@ MAINTAINER jorge.middleton@gmail.com
 
 EXPOSE 9080
 
-ADD myhealth-api-0.0.3-SNAPSHOT.jar /data/myhealth-api.jar
+ADD myhealth-api-$BUILD_NUMBER$.jar /data/myhealth-api.jar
 RUN touch /data/myhealth-api.jar
 
 CMD ["--port 9080"]
