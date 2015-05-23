@@ -41,7 +41,7 @@ public class PcehrWebServiceTest {
 	@Autowired
 	private PcehrClient uploadDocument;
 
-	// @Test
+	@Test
 	public void testGetRecordList() {
 
 		long start = System.currentTimeMillis();
@@ -50,7 +50,7 @@ public class PcehrWebServiceTest {
 		try {
 
 			Map<String, Object> data = new HashMap<String, Object>();
-			data.put(PcehrClient.TEMPLATE, "/META-INF/getRecordList.xml");
+			data.put(PcehrClient.DOCUMENT_TYPE, "getRecordList");
 			data.put(PcehrClient.SAML_FILE, XmlToJsonConverter.readFile("/META-INF/pcehrSaml.xml"));
 
 			Source response = getRecordList.invoke(null, data);
