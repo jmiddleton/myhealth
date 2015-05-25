@@ -334,7 +334,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<file>target/classes/docker/Dockerfile</file>
+					<file>${project.basedir}/target/classes/docker/Dockerfile</file>
 					<regex>false</regex>
 					<token>$BUILD_NUMBER$</token>
 					<value>${project.version}</value>
