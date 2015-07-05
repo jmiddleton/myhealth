@@ -12,7 +12,8 @@ Another benefit is how the architecture is layered. SPA creates a separation bet
 
 The following figure depicts the high-level architecture diagram.
 
-(https://github.com/jmiddleton/myhealth/docs/images/hlad.png)
+![High Level Architecture Diagram]
+(https://github.com/jmiddleton/myhealth/blob/master/docs/images/hlad.png)
 
 The solution is composed of two main components:
 
@@ -35,7 +36,8 @@ The architecture makes really simple delivering new releases or updates. We can 
 
 The following diagram represents the deployment topology using Amazon AWS. 
 
-(https://github.com/jmiddleton/myhealth/docs/images/deploymentaws.png)
+![Deployment Topology]
+(https://github.com/jmiddleton/myhealth/blob/master/docs/images/deploymentaws.png)
 
 The deployment is divided in two areas:
 •	The front-end is deployed on Amazon S3 Bucket. It only contains static resources (HTML5, CSS images, and JavaScript). CloudFront is used to provide fast access and caching of those resources.
