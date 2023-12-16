@@ -190,14 +190,14 @@
                 <enabled>false</enabled>
             </snapshots>
             <id>io.spring.repo.maven.release</id>
-            <url>http://repo.spring.io/release/</url>
+            <url>https://repo.spring.io/release/</url>
         </repository>
         <repository>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
             <id>io.spring.repo.maven.milestone</id>
-            <url>http://repo.spring.io/milestone/</url>
+            <url>https://repo.spring.io/milestone/</url>
         </repository>
     </repositories>
     
